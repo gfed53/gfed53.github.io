@@ -1,0 +1,192 @@
+
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: auto;
+}
+/*header {
+ background: url(https://images.unsplash.com/photo-1428999418909-363f8e091c50?q=80&fm=jpg&s=1a14392ed2966f8c1cae63762fe5ea8a) no-repeat center;
+  background-size: cover;
+  padding-top: 4em;
+  padding-bottom: 5.5em;
+  
+}*/
+
+.masthead-intro,
+.masthead-heading,
+.projects-content,
+.content-footer  {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  color: white;
+  background-image: url('../portfolio/background1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em rgba(74, 103, 69, 0.81);
+  
+    
+}
+
+
+
+.masthead-intro {
+  /*Layout Declarations*/
+  margin-bottom: 0.1em;
+  /*Typography Declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+/*.masthead h2 {
+  font-size: 2.25em;
+  font-family: Tahoma;
+}*/
+
+.masthead-heading {
+  /*Layout Declarations*/
+  margin-top: -0.2em;
+  /*Typography Declarations*/
+  font-size: 6em;
+  font-weight: bold;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: .04em .04em Gainsboro;
+  letter-spacing: -0.02 em;
+  text-transform: uppercase;
+}
+
+.introduction-section, 
+.location-section,
+.questions-section,
+.projects {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  
+}
+
+
+
+.introduction-section h1, 
+.location-section h1,
+.questions-section h1,
+.projects h1 {
+  box-shadow: .1em .1em .2em Black;
+  border-radius: .2em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.social > li {
+  display: inline-block;
+  /*list-style-type: none;*/
+}
+
+.introduction-section > p, 
+.location-section > p
+.content-footer > p {
+  /*Typography Declarations*/
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /*Typography Declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 1em 0;
+  -webkit-box-shadow: .2em .2em .3em gray;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+h2 {
+  font-style: italic;
+  color: Darkgreen;
+}
+
+
+.strng {
+  font-weight: bold;
+  color: MidnightBlue;
+}
+
+.meek {
+  font-size: .7em;
+}
+
+.projects {
+}
+
+.projects-content li {
+  display: inline-block;
+}
+
+.projects-content a {
+  text-decoration: none;
+  padding: .2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: .8em;
+  color: White;
+  background-color: #154014;
+  border: 1px solid gray;
+  border-radius: .3em;
+}
+
+.projects a:hover {
+  font-weight: bold;
+  background-color: #92D18B;
+  color: Gray;
+}
+
+.content-footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  background: #154014;
+  padding: 5em;
+}
+
+
+
+.content-footer > p {
+  padding-left: 3em;
+  color: white;
+}
+
+.social {
+  padding-left: 3em;
+}
+
+
+
+.content-footer a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #54FF51;
+  padding: .3em .2em;
+}
+
+ @media only screen and (max-width: 320px) {
+  .masthead {
+    padding: 3em 0;
+  }
+
+  .masthead-heading {
+    font-size: 3em;
+  }
+
+  .content-footer {
+    font-size: .75em;
+    padding: 1em;
+  }
+} 
