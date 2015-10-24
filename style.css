@@ -16,7 +16,6 @@ body {
 
 .masthead-intro,
 .masthead-heading,
-.projects-content,
 .content-footer  {
   text-align: center;
 }
@@ -63,7 +62,7 @@ body {
 .location-section,
 .questions-section,
 .projects {
-  max-width: 38em;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -123,29 +122,20 @@ h2 {
   font-size: .7em;
 }
 
-.projects {
+.projects-content {
+  margin: 0 auto;
+  text-align: center;
 }
 
-.projects-content li {
-  display: inline-block;
+.projects-content h2 {
+  font-size: 1.6em;
+  text-align: center;
 }
 
-.projects-content a {
-  text-decoration: none;
-  padding: .2em;
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: .8em;
-  color: White;
-  background-color: #154014;
-  border: 1px solid gray;
-  border-radius: .3em;
+.projects-content img {
+  max-width: 20em;
 }
 
-.projects a:hover {
-  font-weight: bold;
-  background-color: #92D18B;
-  color: Gray;
-}
 
 .content-footer {
   margin-left: auto;
