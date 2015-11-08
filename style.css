@@ -2,7 +2,7 @@
 body {
   /* Typography Declarations */
   color: #222222;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   margin: auto;
 }
@@ -24,6 +24,7 @@ body {
   padding: 6em 0;
   color: white;
   background-image: url('background1.jpeg');
+  background-color: #656B64;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em rgba(74, 103, 69, 0.81);
@@ -62,7 +63,7 @@ body {
 .location-section,
 .questions-section,
 .projects {
-  max-width: 60em;
+  max-width: 65em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -96,7 +97,6 @@ body {
 .questions-section > h2 {
   /*Typography Declarations*/
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
   font-weight: bold;
   /* Layout */
   margin: 2em 1em 0;
@@ -110,6 +110,7 @@ section > h1 {
 h2 {
   font-style: italic;
   color: Darkgreen;
+  font-size: 1.6em;
 }
 
 
@@ -128,7 +129,6 @@ h2 {
 }
 
 .projects-content h2 {
-  font-size: 1.6em;
   text-align: center;
 }
 
