@@ -124,16 +124,25 @@ h2 {
 }
 
 .projects-content {
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
 .projects-content h2 {
   text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 2px solid grey;
 }
 
 .projects-content img {
   max-width: 20em;
+}
+
+.projects-content p {
+  /*background-color: rgba(51, 51, 51, 0.68);*/
+  color: Grey;
+  font-size: 1.2em;
 }
 
 
