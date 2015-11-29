@@ -63,9 +63,10 @@ body {
 .location-section,
 .questions-section,
 .projects h1 {
-  /*max-width: 65em;*/
-  margin: 2em 12rem;
-  /*margin-top: 2em;*/
+  max-width: 65em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
   
 }
 
@@ -125,7 +126,6 @@ h2 {
 .projects > .projects-content {
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
 
 /* .projects h1 {
