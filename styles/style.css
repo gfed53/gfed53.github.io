@@ -148,6 +148,14 @@ h2 {
   font-size: 1.2em;
 }
 
+.left-column {
+  text-align: left;
+}
+
+.right-column {
+  text-align: right;
+}
+
 
 .content-footer {
   margin-left: auto;
