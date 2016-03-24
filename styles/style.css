@@ -113,14 +113,8 @@ section > h1, h2 {
 
 h2 {
   font-style: italic;
-  color: Darkgreen;
+  color: #2B4727;
   font-size: 1.6em;
-}
-
-
-.strng {
-  font-weight: bold;
-  color: MidnightBlue;
 }
 
 .meek {
@@ -170,7 +164,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em;
-  background: #154014;
+  background: #2B4727;
   padding: 5em;
 }
 
@@ -191,8 +185,14 @@ h2 {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
-  color: #54FF51;
+  color: #8FD977;
   padding: .3em .2em;
+  border-radius: 0.2em;
+}
+
+.content-footer a:hover {
+  background-color: #9CE6C4;
+  color: #545454;
 }
 
  @media only screen and (max-width: 320px) {
