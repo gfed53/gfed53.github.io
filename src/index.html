@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../jquery-ui/jquery-ui.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href = "styles/style.css">
+		<title>Greg's Site</title>
+	</head>
+	<body>
+		<div ui-view="header"></div>
+		<div ui-view="content"></div>
+		<div ui-view="footer"></div>
+		<script src="../jquery-ui/external/jquery/jquery.js"></script>
+		<script src="../jquery-ui/jquery-ui.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="../node_modules/angular/angular.min.js"></script>
+		<script src="../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>  
+		<script type="text/javascript" src="components/app.js"></script>
+		<script src="components/library.js"></script>
+		<script src="components/routes.js"></script>
+		<script src="partials/projects/projectsController.js"></script>
+	</body>
+</html>

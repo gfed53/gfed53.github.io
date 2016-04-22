@@ -6,13 +6,6 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   margin: auto;
 }
-/*header {
- background: url(https://images.unsplash.com/photo-1428999418909-363f8e091c50?q=80&fm=jpg&s=1a14392ed2966f8c1cae63762fe5ea8a) no-repeat center;
-  background-size: cover;
-  padding-top: 4em;
-  padding-bottom: 5.5em;
-  
-}*/
 
 .masthead-intro,
 .masthead-heading,
@@ -20,6 +13,7 @@ body {
   text-align: center;
 }
 
+/*Header*/
 .masthead {
   padding: 6em 0;
   color: white;
@@ -28,11 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em rgba(74, 103, 69, 0.81);
-  
-    
 }
-
-
 
 .masthead-intro {
   /*Layout Declarations*/
@@ -41,11 +31,6 @@ body {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 2em;
 }
-
-/*.masthead h2 {
-  font-size: 2.25em;
-  font-family: Tahoma;
-}*/
 
 .masthead-heading {
   /*Layout Declarations*/
@@ -59,6 +44,11 @@ body {
   text-transform: uppercase;
 }
 
+/*Menu*/
+.active {
+  background-color: #eee;
+}
+
 .introduction-section, 
 .location-section,
 .questions-section,
@@ -69,8 +59,6 @@ body {
   margin-top: 2em;
   
 }
-
-
 
 .introduction-section h1, 
 .location-section h1,
@@ -87,7 +75,6 @@ body {
 
 .social > li {
   display: inline-block;
-  /*list-style-type: none;*/
 }
 
 .introduction-section > p, 
@@ -131,10 +118,6 @@ h2 {
   margin: 0 auto;
 }
 
-/* .projects h1 {
-  margin: 2rem 12rem;
-} */
-
 .projects-content h2 {
   text-align: center;
   padding-bottom: 1em;
@@ -146,7 +129,6 @@ h2 {
 }
 
 .projects-content p {
-  /*background-color: rgba(51, 51, 51, 0.68);*/
   color: Grey;
   font-size: 1.2em;
 }
@@ -159,7 +141,6 @@ h2 {
   text-align: right;
 }
 
-
 .content-footer {
   margin-left: auto;
   margin-right: auto;
@@ -167,8 +148,6 @@ h2 {
   background: #2B4727;
   padding: 5em;
 }
-
-
 
 .content-footer > p {
   padding-left: 3em;
@@ -178,8 +157,6 @@ h2 {
 .social {
   padding-left: 3em;
 }
-
-
 
 .content-footer a {
   text-decoration: none;

@@ -1,0 +1,23 @@
+{
+  "name": "greg-federico-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfed53/greg-federico-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfed53/greg-federico-portfolio/issues"
+  },
+  "homepage": "https://github.com/gfed53/greg-federico-portfolio#readme",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18"
+  }
+}
