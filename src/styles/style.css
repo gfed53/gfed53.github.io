@@ -78,6 +78,7 @@ body {
 }
 
 .content-quote {
+	margin: 4em 0;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #6C7A89;
@@ -133,6 +134,12 @@ h2 {
 	font-style: italic;
 	/*color: #2B4727;*/
 	font-size: 1.6em;
+}
+
+/*About*/
+
+.about p {
+	text-indent: 1.5em;
 }
 
 .meek {

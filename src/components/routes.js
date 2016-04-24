@@ -15,7 +15,9 @@ function config($stateProvider, $urlRouterProvider){
 				// controllerAs: 'header'
 			},
 			'content': {
-				templateUrl: "./partials/content/content.html"
+				templateUrl: "./partials/content/content.html",
+				controller: 'ContentCtrl',
+				controllerAs: 'content'
 			},
 			'footer': {
 				templateUrl: "./partials/footer/footer.html"	
