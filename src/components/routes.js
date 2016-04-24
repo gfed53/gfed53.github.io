@@ -11,8 +11,6 @@ function config($stateProvider, $urlRouterProvider){
 		views: {
 			'header': {
 				templateUrl: "./partials/header/header.html"
-				// controller: 'HeaderCtrl',
-				// controllerAs: 'header'
 			},
 			'content': {
 				templateUrl: "./partials/content/content.html",
@@ -49,7 +47,6 @@ function config($stateProvider, $urlRouterProvider){
 			}
 		}
 	};
-
 
 	$stateProvider
 	.state(myRoot)

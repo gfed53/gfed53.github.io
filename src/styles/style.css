@@ -1,9 +1,10 @@
-
+/*General*/
 body {
-	/* Typography Declarations */
+	/* Typography*/
 	color: #222222;
 	font-size: 1.4em;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	/*Layout*/
 	margin: auto;
 }
 
@@ -13,34 +14,73 @@ body {
 .content-quote,
 .about h1,
 .about h2,
+.projects h1,
 .content-footer  {
+	/*Typography*/
 	text-align: center;
+}
+
+.introduction-section, 
+.location-section,
+.questions-section,
+.projects {
+	/*Layout*/
+	margin: 2em;	
+}
+
+.introduction-section h1, 
+.location-section h1,
+.questions-section h1,
+.projects h1 {
+	/*Typography*/
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.introduction-section > p, 
+.location-section > p
+.content-footer > p {
+	/*Typography*/
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+section > h1, h2 {
+	/*Layout*/
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	/*Typography*/
+	font-style: italic;
+	font-size: 1.6em;
 }
 
 /*Header*/
 .masthead {
-	padding: 6em 0;
+	/*Typography*/	
 	color: white;
+	/*Layout*/
+	padding: 6em 0;
 	background-image: url('../images/background1.jpg');
 	background-color: #3FC380;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*border-top: solid 1em rgba(74, 103, 69, 0.81);*/
 }
 
 .masthead-intro {
-	/*Layout Declarations*/
+	/*Layout*/
 	margin-bottom: 0.1em;
 	margin-left: 6em;
-	/*Typography Declarations*/
+	/*Typography*/
 	font-family: "Gentium Book Basic", Georgia, serif;
 	font-size: 2em;
 }
 
 .masthead-heading {
-	/*Layout Declarations*/
+	/*Layout*/
 	margin-top: -0.2em;
-	/*Typography Declarations*/
+	/*Typography*/
 	font-size: 6em;
 	font-weight: bold;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -50,141 +90,103 @@ body {
 }
 
 /*Menu*/
-
-/*.my-menu {
-	text-align: center;
-}*/
-
 .nav-tabs>li {
+	/*Layout*/
 	float: none;
 	display: inline-block;
+	/*Typography*/
 	font-size: 1.3em;
 }
 
-.my-menu a {
-	/*color: black;*/
-	/*background-color: #3FC380;*/
-}
-
 .active {
+	/*Layout*/
 	background-color: #eee;
+	/*Typography*/
 	color: black;
 }
 
-/*General*/
-
+/*Content*/
 #mast-content {
+	/*Layout*/
 	margin-top: 1.5em;
 }
 
 .content-quote {
+	/*Layout*/
 	margin: 4em 0;
+	/*Typography*/
 	font-style: italic;
 	font-size: 1.5em;
 	color: #6C7A89;
 }
 
-.introduction-section, 
-.location-section,
-.questions-section,
-.projects {
-	/*max-width: 65em;*/
-	margin: 2em;	
-}
-
-.introduction-section h1, 
-.location-section h1,
-.questions-section h1,
-.projects h1 {
-	/*box-shadow: .1em .1em .2em Black;*/
-	/*border-radius: .2em;*/
-	font-family: "Source Sans Pro", sans-serif;
-}
-
-.projects h1 {
-	text-align: center;
-}
-
-.social > li {
-	display: inline-block;
-}
-
-.introduction-section > p, 
-.location-section > p
-.content-footer > p {
-	/*Typography Declarations*/
-	font-weight: 300;
-	letter-spacing: 0.05em;
-}
-
-.questions-section > h2 {
-	/*Typography Declarations*/
-	font-family: "Gentium Book Basic", Georgia, serif;
-	font-weight: bold;
-	/* Layout */
-	/*-webkit-box-shadow: .2em .2em .3em gray;*/
-}
-
-section > h1, h2 {
-	margin-top: 2em;
-	margin-bottom: 1em;
-}
-
-h2 {
-	font-style: italic;
-	/*color: #2B4727;*/
-	font-size: 1.6em;
-}
-
 /*About*/
-
 .about p {
+	/*Typography*/
 	text-indent: 1.5em;
 }
 
 .meek {
+	/*Typography*/
 	font-size: .7em;
 }
 
+.questions-section > h2 {
+	/*Typography*/
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-weight: bold;
+}
+
+/*Projects*/
 .projects {
+	/*Layout*/
 	padding-bottom: 3em;
 	border-bottom: 2px solid black;
 }
 
 .projects > .projects-content {
+	/*Layout*/
 	max-width: 100%;
 	margin: 0 auto;
 }
 
 .projects-content h2 {
+	/*Layout*/
 	text-align: center;
 	padding-bottom: 1em;
 	border-bottom: 2px solid grey;
 }
 
 .projects-content img {
+	/*Animation*/
 	width: 20em;
 	transition: 500ms cubic-bezier(0.55, 0.09, 0.68, 0.53) all; 
 }
 
 .projects-content img:hover {
+	/*Animation*/
 	width: 24em;
 }
 
 .projects-content p {
+	/*Typography*/
 	color: Grey;
 	font-size: 1.2em;
 }
 
 .left-column {
+	/*Typography*/
 	text-align: left;
 }
 
 .right-column {
+	/*Typography*/
 	text-align: right;
 }
 
+/*Footer*/
 .content-footer {
+	/*Layout*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 5em;
@@ -193,39 +195,55 @@ h2 {
 }
 
 .content-footer > p {
+	/*Layout*/
 	padding-left: 3em;
+	/*Typography*/
 	color: white;
 }
 
 .social {
+	/*Layout*/
 	padding-left: 3em;
 }
 
+.social > li {
+	/*Layout*/
+	display: inline-block;
+}
+
 .content-footer a {
+	/*Typography*/
 	text-decoration: none;
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #BDC3C7;
+	/*Layout*/
 	padding: .3em .2em;
 	border-radius: 0.2em;
 }
 
 .content-footer a:hover {
+	/*Layout*/
 	background-color: #9CE6C4;
 	color: #545454;
 }
 
+/*Media Queries*/
 @media only screen and (max-width: 320px) {
 	.masthead {
+		/*Layout*/
 		padding: 3em 0;
 	}
 
 	.masthead-heading {
+		/*Typography*/
 		font-size: 3em;
 	}
 
 	.content-footer {
+		/*Typography*/
 		font-size: .75em;
+		/*Layout*/
 		padding: 1em;
 	}
 } 
