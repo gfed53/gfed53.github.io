@@ -1,7 +1,7 @@
 angular
 .module('myApp')
-.factory('myProjects', myProjects)
-.factory('myQuoteLib', myQuoteLib)
+.factory('myProjects', [myProjects])
+.factory('myQuoteLib', [myQuoteLib])
 
 function myProjects(){
 	return function(){

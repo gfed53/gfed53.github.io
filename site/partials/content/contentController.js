@@ -5,6 +5,4 @@ angular
 function ContentCtrl(myQuoteLib){
 	var vm = this;
 	vm.quote = myQuoteLib().randQuote();
-
-	console.log(vm.quote);
 }
