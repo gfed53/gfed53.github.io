@@ -55,7 +55,7 @@ function myProjects(){
 				blurb: "Using the TASTEKiD API, this app showcases the power of APIs and JSON objects."
 			},
 			{
-				title: "Game Design with Flying Hadouken",
+				title: "Game Development with Flying Hadouken",
 				link: "//gfed53.github.io/flappy-bird/site/index.html",
 				image: "./images/fbird.png",
 				blurb: "A app with a landing page that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates SASS for CSS preprocessing, and Gulp as a build-tool."

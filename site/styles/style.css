@@ -25,7 +25,7 @@ body {
 .questions-section,
 .projects {
 	/*Layout*/
-	margin: 2em;	
+	margin: 1em;	
 }
 
 .introduction-section h1, 
@@ -240,10 +240,33 @@ h2 {
 		font-size: 3em;
 	}
 
+	.masthead-intro {
+		/*Typography*/
+		font-size: 1.3em;		
+	}
+
+	/*About*/
+	.about p {
+		/*Typography*/
+		font-size: 1.2em;
+	}
+
 	.content-footer {
 		/*Typography*/
 		font-size: .75em;
 		/*Layout*/
 		padding: 1em;
 	}
-} 
+}
+
+@media only screen and (max-width: 992px){
+	.nav-tabs>li {
+		/*Typography*/
+		font-size: 1.6em;
+	}
+	.col-md-6 {
+		margin-bottom: 2em;
+	}
+}
+
+
