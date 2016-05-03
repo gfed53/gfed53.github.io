@@ -62,7 +62,7 @@ h2 {
 	color: white;
 	/*Layout*/
 	padding: 6em 0;
-	background-image: url('../images/background1.jpg');
+	background-image: url('../images-min/background1.jpg');
 	background-color: #3FC380;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -266,6 +266,17 @@ h2 {
 }
 
 @media only screen and (max-width: 992px){
+	/*Header*/
+	.masthead {
+		/*Typography*/	
+		color: white;
+		/*Layout*/
+		padding: 6em 0;
+		background-image: url('../images-min/background1-mobile.jpg');
+		background-color: #3FC380;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 	.nav-tabs>li {
 		/*Typography*/
 		font-size: 1.6em;
