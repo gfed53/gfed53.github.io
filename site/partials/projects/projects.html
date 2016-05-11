@@ -4,7 +4,14 @@
 		<div ng-if="$index % 2 === 0" class="row">
 			<h2>{{project.title}}</h2>
 			<div class="col-md-6 left-column">
-				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a>
+<!-- 				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a> -->
+				<div class="dropdown">
+					<img class="dropdown-toggle proj-pic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" ng-src ="{{project.image}}">
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href= "{{project.link}}">gh-page</a></li>
+						<li><a href="{{project.ghlink}}">Github</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-md-6 right-column">
 				<p>{{project.blurb}}</p>
@@ -16,7 +23,14 @@
 				<p>{{project.blurb}}</p>
 			</div>
 			<div class="col-md-6 right-column">
-				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a>
+<!-- 				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a> -->
+				<div class="dropdown">
+					<img class="dropdown-toggle proj-pic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" ng-src ="{{project.image}}">
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href= "{{project.link}}">gh-page</a></li>
+						<li><a href="{{project.ghlink}}">Github</a></li>
+					</ul>
+				</div>	
 			</div>
 		</div>
 	</div>
