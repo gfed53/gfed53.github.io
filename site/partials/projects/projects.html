@@ -1,7 +1,7 @@
 <section class="projects">
 	<h1>My Projects</h1>
 	<div class="container projects-content" ng-repeat="project in projects.projectsArray">
-		<div ng-if="$index % 2 === 0" class="row">
+		<div ng-if="$index % 2 === 0" class="row project">
 			<h2>{{project.title}}</h2>
 			<div class="col-md-6 left-column">
 <!-- 				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a> -->
@@ -17,7 +17,7 @@
 				<p>{{project.blurb}}</p>
 			</div>
 		</div>
-		<div ng-if="$index % 2 !== 0" class="row">
+		<div ng-if="$index % 2 !== 0" class="row project">
 			<h2>{{project.title}}</h2>
 			<div class="col-md-6 left-column">
 				<p>{{project.blurb}}</p>
