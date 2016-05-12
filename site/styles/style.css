@@ -64,7 +64,6 @@ h2 {
 	/*Layout*/
 	padding: 6em 0;
 	background-image: url('../images-min/background1.jpg');
-	background-color: #3FC380;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -231,6 +230,7 @@ h2 {
 .social > li {
 	/*Layout*/
 	display: inline-block;
+	margin: 0.5em;
 }
 
 .content-footer a {
@@ -245,8 +245,7 @@ h2 {
 }
 
 .content-footer a:hover {
-	/*Layout*/
-	background-color: #9CE6C4;
+	/*Typography*/
 	color: #545454;
 }
 
