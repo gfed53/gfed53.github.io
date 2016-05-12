@@ -9,7 +9,7 @@ function myProjects(){
 			{
 				title: "Hacking The Times",
 				link: "./images/times10_13_15.png",
-				ghlink: "",
+				ghlink: "./images/times10_13_15.png",
 				image: "./images-min/times10_13_15.png",
 				blurb: "An early task demonstrating the benefits of Chrome Developer Tools."
 			},

@@ -1,10 +1,10 @@
 <section class="projects">
 	<h1>My Projects</h1>
+	<p class="project-sub">Click the images for more.</p>
 	<div class="container projects-content" ng-repeat="project in projects.projectsArray">
 		<div ng-if="$index % 2 === 0" class="row project">
 			<h2>{{project.title}}</h2>
 			<div class="col-md-6 left-column">
-<!-- 				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a> -->
 				<div class="dropdown">
 					<img class="dropdown-toggle proj-pic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" ng-src ="{{project.image}}">
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -23,7 +23,6 @@
 				<p>{{project.blurb}}</p>
 			</div>
 			<div class="col-md-6 right-column">
-<!-- 				<a href= "{{project.link}}"><img class="proj-pic" ng-src ="{{project.image}}"></a> -->
 				<div class="dropdown">
 					<img class="dropdown-toggle proj-pic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" ng-src ="{{project.image}}">
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">

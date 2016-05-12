@@ -15,6 +15,7 @@ body {
 .about h1,
 .about h2,
 .projects h1,
+.project-sub,
 .content-footer  {
 	/*Typography*/
 	text-align: center;
@@ -156,6 +157,11 @@ h2 {
 	margin: 0 auto;
 }
 
+.project-sub {
+	font-style: italic;
+	font-weight: bold;
+}
+
 .projects-content h2 {
 	/*Layout*/
 	text-align: center;
@@ -171,7 +177,7 @@ h2 {
 
 .project:hover > h2 {
 	font-weight: bold;
-	color: red;
+	color: #019875;
 }
 
 .project:hover p {
@@ -181,12 +187,7 @@ h2 {
 
 .projects-content img {
 	width: 20em;
-	border: 3px hidden black;
 	border-radius: 1em;
-}
-
-.projects-content img:hover {
-	border: 3px solid lightblue;
 }
 
 .projects-content p {
