@@ -38,7 +38,7 @@ body {
 }
 
 .introduction-section > p, 
-.location-section > p
+.location-section > p,
 .content-footer > p {
 	/*Typography*/
 	font-weight: 300;
@@ -130,6 +130,9 @@ h2 {
 .about p {
 	/*Typography*/
 	text-indent: 1.5em;
+	/*Layout*/
+	margin: 0 auto;
+	max-width: 50em;
 }
 
 .meek {
