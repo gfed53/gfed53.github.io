@@ -130,8 +130,9 @@ h2 {
 .about p {
 	/*Typography*/
 	text-indent: 1.5em;
+	line-height: 1.4em;
 	/*Layout*/
-	margin: 0 auto;
+	margin: 10px auto;
 	max-width: 50em;
 }
 
@@ -229,6 +230,7 @@ h2 {
 .social {
 	/*Layout*/
 	padding-left: 3em;
+	margin-bottom: 2em;
 }
 
 .social > li {
@@ -237,15 +239,29 @@ h2 {
 	margin: 0.5em;
 }
 
+.social a {
+	/*border-radius: 0.2em;*/
+	font-size: 1.5em;
+}
+
 .content-footer a {
 	/*Typography*/
 	text-decoration: none;
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
 	font-weight: bold;
-	color: #BDC3C7;
+	color: #049372;
 	/*Layout*/
 	padding: .3em .2em;
 	border-radius: 0.2em;
+	background-color: white;
+}
+
+.fa {
+	/*Layout*/
+	background-color: white;
+	padding: 0.5em;
+	/*Typography*/
+	font-size: 1em;
 }
 
 .content-footer a:hover {
@@ -284,7 +300,7 @@ h2 {
 	}
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 550px){
 	.masthead-heading {
 		/*Typography*/
 		font-size: 4em;
