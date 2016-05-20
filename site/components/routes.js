@@ -1,6 +1,6 @@
 angular
-.module('myApp')
-.config(['$stateProvider', '$urlRouterProvider', config])
+.module("myApp")
+.config(["$stateProvider", "$urlRouterProvider", config])
 
 
 function config($stateProvider, $urlRouterProvider){
@@ -9,20 +9,18 @@ function config($stateProvider, $urlRouterProvider){
 		name: "root",
 		url: "/",
 		views: {
-			'header': {
+			"header": {
 				templateUrl: "./partials/header/header.html",
 				controller: "HeaderCtrl",
 				controllerAs: "header"
 			},
-			'content': {
-				templateUrl: "./partials/content/content.html",
-				// controller: 'ContentCtrl',
-				// controllerAs: 'content'
+			"content": {
+				templateUrl: "./partials/content/content.html"
 			},
-			'footer': {
+			"footer": {
 				templateUrl: "./partials/footer/footer.html"	
 			},
-			'menu@root': {
+			"menu@root": {
 				templateUrl: "./partials/header/header-partials/menu.html"
 			}
 		}
@@ -32,7 +30,7 @@ function config($stateProvider, $urlRouterProvider){
 		url: "about",
 		parent: "root",
 		views: {
-			'content@': {
+			"content@": {
 				templateUrl: "./partials/about/about.html"
 			}
 		}
@@ -42,7 +40,7 @@ function config($stateProvider, $urlRouterProvider){
 		url: "projects",
 		parent: "root",
 		views: {
-			'content@': {
+			"content@": {
 				templateUrl: "./partials/projects/projects.html",
 				controller: "ProjectsCtrl",
 				controllerAs: "projects"
