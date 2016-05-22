@@ -221,15 +221,13 @@ h2 {
 }
 
 .content-footer > p {
-	/*Layout*/
-	padding-left: 3em;
 	/*Typography*/
 	color: white;
 }
 
 .social {
 	/*Layout*/
-	padding-left: 3em;
+	padding-left: 0;
 	margin-bottom: 2em;
 }
 
@@ -239,27 +237,36 @@ h2 {
 	margin: 0.5em;
 }
 
-.social a {
-	font-size: 1.5em;
-}
-
 .content-footer a {
 	/*Typography*/
-	text-decoration: none;
-	font-weight: bold;
 	color: #049372;
+	font-weight: bold;
+	text-decoration: none;
 	/*Layout*/
 	padding: .3em .2em;
-	border-radius: 0.2em;
 	background-color: white;
+}
+
+.content-footer p>a {
+	border-radius: 0.3em;
+}
+
+.social a {
+	/*Typography*/
+	font-size: 1.5em;
+	/*Layout*/
+	border-radius: 1em;
 }
 
 .fa {
 	/*Layout*/
-	background-color: white;
-	padding: 0.5em;
+	padding: 0 0.46em;
 	/*Typography*/
 	font-size: 1em;
+}
+
+.fa-facebook {
+	padding: 0 0.6em;
 }
 
 .content-footer a:hover {
@@ -303,10 +310,24 @@ h2 {
 		/*Typography*/
 		font-size: 4em;
 	}
+
 	.masthead-intro {
 		/*Typography*/
 		font-size: 1.3em;		
 	}
+
+	.social li {
+		margin: 0.3em;
+	}
+
+	.social a {
+		font-size: 1em;
+	}
+
+	.content-footer > p {
+		font-size: 0.8em;
+	}
+
 }
 
 @media only screen and (max-width: 992px){
