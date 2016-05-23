@@ -217,7 +217,7 @@ h2 {
 	margin-right: auto;
 	margin-top: 5em;
 	background: #049372;
-	padding: 5em;
+	padding: 5em 0;
 }
 
 .content-footer > p {
@@ -260,13 +260,13 @@ h2 {
 
 .fa {
 	/*Layout*/
-	padding: 0 0.46em;
+	padding: 0 0.4em;
 	/*Typography*/
 	font-size: 1em;
 }
 
 .fa-facebook {
-	padding: 0 0.6em;
+	padding: 0 0.5em;
 }
 
 .content-footer a:hover {
@@ -301,7 +301,7 @@ h2 {
 		/*Typography*/
 		font-size: .75em;
 		/*Layout*/
-		padding: 1em;
+		padding: 3em;
 	}
 }
 
@@ -318,14 +318,6 @@ h2 {
 
 	.social li {
 		margin: 0.3em;
-	}
-
-	.social a {
-		font-size: 1em;
-	}
-
-	.content-footer > p {
-		font-size: 0.8em;
 	}
 
 }
