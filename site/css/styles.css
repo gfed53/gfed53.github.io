@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif; }
+
+#mast-head #menu {
+  text-align: right; }
+  #mast-head #menu ul li {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid black; }
+    #mast-head #menu ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: black; }
+    #mast-head #menu ul li a:hover {
+      color: grey; }
+
+#mast-head header {
+  margin: 5em auto; }
+  #mast-head header .mast-head-heading {
+    font-size: 8em;
+    margin: 6rem 0; }
