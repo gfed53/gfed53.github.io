@@ -24,10 +24,21 @@
 		// text-align: center;
 		.mast-head-heading {
 			font-size: 8em;
-			margin: 6rem 0;
+			margin-bottom: 0;
 		}
 		.mast-head-intro {
-			
+			p {
+				// font-family: "Helvetica Neue", serif;
+				text-align: center;
+				font-size: 2em;
+			}
+			#sub {
+				// text-align: right;
+				font-style: italic;
+			}
+			#quote {
+				
+			}
 		}	
 	}
 

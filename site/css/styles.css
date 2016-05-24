@@ -1,6 +1,9 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif; }
 
+#about .hidden {
+  display: none; }
+
 #mast-head #menu {
   text-align: right; }
   #mast-head #menu ul li {
@@ -19,4 +22,16 @@ body {
   margin: 5em auto; }
   #mast-head header .mast-head-heading {
     font-size: 8em;
-    margin: 6rem 0; }
+    margin-bottom: 0; }
+  #mast-head header .mast-head-intro p {
+    text-align: center;
+    font-size: 2em; }
+  #mast-head header .mast-head-intro #sub {
+    font-style: italic; }
+
+#about div {
+  width: 50%;
+  display: inline-block; }
+
+#about .about-heading h1 {
+  font-size: 3em; }
