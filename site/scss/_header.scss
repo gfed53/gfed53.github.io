@@ -16,11 +16,13 @@
 		}
 		.nav-email {
 			padding: 0;
+			letter-spacing: 1.5px;
 		}
 		.nav-buttons {
 			float: right;
 			.nav-button {
 				border: 2px solid black;
+				// background-color: #00B16A;
 				a {
 					text-decoration: none;
 					// font-weight: bold;
@@ -36,12 +38,14 @@
 		margin: 5em auto;
 		// text-align: center;
 		.mast-head-heading {
+			color: #1E824C;
 			font-size: 8em;
 			margin-bottom: 0;
 		}
 		.mast-head-intro {
 			p {
 				// font-family: "Helvetica Neue", serif;
+				color: #00B16A;
 				text-align: center;
 				font-size: 2.5em;
 			}

@@ -1,11 +1,21 @@
 #about {
+	margin: 13em 0;
 	div {
-		width: 50%;
+		width: 45%;
 		display: inline-block;
 	}
 	.about-heading {
 		h1 {
 			font-size: 3em;
+		}
+	}
+	.about-content {
+		p {
+			font-size: 1.3em;
+		}
+		.about-button-wrapper {
+			width: 100%;
+			text-align: center;
 		}
 	}
 
