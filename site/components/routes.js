@@ -10,9 +10,9 @@ function config($stateProvider, $urlRouterProvider){
 		url: "/",
 		views: {
 			"header": {
-				templateUrl: "./partials/header/header.html",
-				controller: "HeaderCtrl",
-				controllerAs: "header"
+				templateUrl: "./partials/header/header.html"
+				// controller: "HeaderCtrl",
+				// controllerAs: "header"
 			},
 			"content": {
 				templateUrl: "./partials/content/content.html"
@@ -31,7 +31,9 @@ function config($stateProvider, $urlRouterProvider){
 		parent: "root",
 		views: {
 			"content@": {
-				templateUrl: "./partials/about/about.html"
+				templateUrl: "./partials/about/about.html",
+				controller: "AboutCtrl",
+				controllerAs: "about"
 			}
 		}
 	},

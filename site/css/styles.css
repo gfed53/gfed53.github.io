@@ -4,18 +4,27 @@ body {
 #about .hidden {
   display: none; }
 
-#mast-head #menu {
-  text-align: right; }
-  #mast-head #menu ul li {
+#mast-head #menu .nav {
+  display: inline-block; }
+  #mast-head #menu .nav .spacer {
+    width: 20%; }
+  #mast-head #menu .nav li {
     display: inline-block;
     margin: 1em;
     padding: 1em;
+    font-weight: bold; }
+
+#mast-head #menu .nav-email {
+  padding: 0; }
+
+#mast-head #menu .nav-buttons {
+  float: right; }
+  #mast-head #menu .nav-buttons .nav-button {
     border: 2px solid black; }
-    #mast-head #menu ul li a {
+    #mast-head #menu .nav-buttons .nav-button a {
       text-decoration: none;
-      font-weight: bold;
       color: black; }
-    #mast-head #menu ul li a:hover {
+    #mast-head #menu .nav-buttons .nav-button a:hover {
       color: grey; }
 
 #mast-head header {
@@ -25,9 +34,10 @@ body {
     margin-bottom: 0; }
   #mast-head header .mast-head-intro p {
     text-align: center;
-    font-size: 2em; }
+    font-size: 2.5em; }
   #mast-head header .mast-head-intro #sub {
-    font-style: italic; }
+    font-family: "Source Sans Pro", serif;
+    letter-spacing: 2px; }
 
 #about div {
   width: 50%;
@@ -35,3 +45,11 @@ body {
 
 #about .about-heading h1 {
   font-size: 3em; }
+
+#about #quote {
+  margin: 3em 0;
+  width: 100%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center; }
