@@ -2,6 +2,8 @@ angular
 .module('myApp')
 .factory('myProjects', [myProjects])
 .factory('myQuoteLib', [myQuoteLib])
+.factory('myViewToggle', [myViewToggle])
+.factory('myAutoscrollToggle', [myAutoscrollToggle])
 
 function myProjects(){
 	return function(){
@@ -127,31 +129,48 @@ function myProjects(){
 	}
 }
 
-	function myQuoteLib(){
-		return function(){
-			var quotes = [
-			{
-				quote: "\“Be happy, but never satisfied.\”",
-				author: "Bruce Lee"
-			},
-			{
-				quote: "\"Negativity is the enemy of creativity\"",
-				author: "David Lynch"
-			},		
-			{
-				quote: "\"Without deviation progress is not possible.\"",
-				author: "Frank Zappa"
-			},		
-			];
+function myQuoteLib(){
+	return function(){
+		var quotes = [
+		{
+			quote: "\“Be happy, but never satisfied.\”",
+			author: "Bruce Lee"
+		},
+		{
+			quote: "\"Negativity is the enemy of creativity\"",
+			author: "David Lynch"
+		},		
+		{
+			quote: "\"Without deviation progress is not possible.\"",
+			author: "Frank Zappa"
+		},		
+		];
 
-			return {
-				randQuote: randQuote
-			}
-
-			function randQuote(){
-				return quotes[Math.floor(Math.random()*quotes.length)];
-			}			
+		return {
+			randQuote: randQuote
 		}
+
+		function randQuote(){
+			return quotes[Math.floor(Math.random()*quotes.length)];
+		}			
 	}
+}
+
+function myViewToggle(){
+	return function(buttonId, contentId){
+		$(buttonId).on("click", function(){
+			$(contentId).toggleClass("hidden");
+		})
+	}
+}
+
+function myAutoscrollToggle(){
+	return function(link, target){
+		$(link).on("click", function(){
+			console.log("running");
+			$(target).attr("autoscroll", "true");
+		});	
+	}
+}
 
 

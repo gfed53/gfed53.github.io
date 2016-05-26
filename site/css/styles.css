@@ -28,18 +28,18 @@ body {
     #mast-head #menu .nav-buttons .nav-button a:hover {
       color: grey; }
 
-#mast-head header {
+header {
   margin: 5em auto; }
-  #mast-head header .mast-head-heading {
+  header .mast-head-heading {
     font-family: "Droid Sans", sans-serif;
     font-size: 8em;
     font-weight: bolder;
     margin-bottom: 0; }
-  #mast-head header .mast-head-intro p {
+  header .mast-head-intro p {
     color: #00B16A;
     text-align: center;
     font-size: 2.5em; }
-  #mast-head header .mast-head-intro #sub {
+  header .mast-head-intro #sub {
     font-family: "Droid Sans", serif;
     letter-spacing: 2px; }
 
@@ -59,6 +59,12 @@ body {
       font-size: 1.5em;
       border-radius: 0.25em;
       background-color: white; }
+  #about .about-more-content {
+    width: 100%; }
+    #about .about-more-content p {
+      margin: 1em auto;
+      max-width: 60em;
+      text-indent: 1em; }
   #about #quote {
     margin: 3em 0;
     width: 100%;

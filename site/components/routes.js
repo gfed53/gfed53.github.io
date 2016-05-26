@@ -2,9 +2,19 @@ angular
 .module("myApp")
 .config(["$stateProvider", "$urlRouterProvider", config])
 
+.run(["$rootScope", "$uiViewScroll", function($rootScope, $uiViewScroll) {
+		// console.log("huh");
+	 //    $rootScope.$on("$routeChangeStart", function() {
+	 //        // $rootScope.isLoading = true;
+	 //    });
+	 //    $rootScope.$on("$routeChangeSuccess", function() {
+	 //    		console.log("change success");
+	 //    		$uiViewScroll("#mast-content");
+	 //    });
+	}]);
 
 function config($stateProvider, $urlRouterProvider){
-	$urlRouterProvider.otherwise("/about")
+	$urlRouterProvider.otherwise("/")
 	var myRoot = {
 		name: "root",
 		url: "/",
@@ -15,13 +25,15 @@ function config($stateProvider, $urlRouterProvider){
 				// controllerAs: "header"
 			},
 			"content": {
-				templateUrl: "./partials/content/content.html"
+				templateUrl: "./partials/home/home.html"
 			},
 			"footer": {
 				templateUrl: "./partials/footer/footer.html"	
 			},
 			"menu@root": {
-				templateUrl: "./partials/header/header-partials/menu.html"
+				templateUrl: "./partials/header/header-partials/menu.html",
+				controller: "MenuCtrl",
+				controllerAs: "menu"
 			}
 		}
 	},
