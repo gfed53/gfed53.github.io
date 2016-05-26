@@ -1,6 +1,17 @@
-#about {
-	.hidden {
-		display: none;
+html {
+	height: 100%;
+	body {
+		height: 100%;
+		#mast-content {
+			margin-bottom: 17em;
+		}
+		#about {
+			.hidden {
+				display: none;
+			}
+		}
 	}
 }
+
+
 

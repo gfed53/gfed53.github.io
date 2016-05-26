@@ -1,8 +1,14 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif; }
 
-#about .hidden {
-  display: none; }
+html {
+  height: 100%; }
+  html body {
+    height: 100%; }
+    html body #mast-content {
+      margin-bottom: 17em; }
+    html body #about .hidden {
+      display: none; }
 
 #mast-head #menu .nav {
   display: inline-block; }
@@ -72,3 +78,19 @@ header {
     font-weight: bold;
     font-size: 2em;
     text-align: center; }
+
+#mast-footer {
+  background-color: black;
+  min-height: 20%; }
+  #mast-footer #social {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center; }
+    #mast-footer #social li {
+      display: inline-block;
+      text-decoration: none;
+      padding: 3em 1em; }
+      #mast-footer #social li a {
+        color: white; }
+      #mast-footer #social li a:hover {
+        color: grey; }
