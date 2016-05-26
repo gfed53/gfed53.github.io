@@ -31,15 +31,16 @@ body {
 #mast-head header {
   margin: 5em auto; }
   #mast-head header .mast-head-heading {
-    color: #1E824C;
+    font-family: "Droid Sans", sans-serif;
     font-size: 8em;
+    font-weight: bolder;
     margin-bottom: 0; }
   #mast-head header .mast-head-intro p {
     color: #00B16A;
     text-align: center;
     font-size: 2.5em; }
   #mast-head header .mast-head-intro #sub {
-    font-family: "Source Sans Pro", serif;
+    font-family: "Droid Sans", serif;
     letter-spacing: 2px; }
 
 #about {
@@ -54,6 +55,10 @@ body {
   #about .about-content .about-button-wrapper {
     width: 100%;
     text-align: center; }
+    #about .about-content .about-button-wrapper input {
+      font-size: 1.5em;
+      border-radius: 0.25em;
+      background-color: white; }
   #about #quote {
     margin: 3em 0;
     width: 100%;

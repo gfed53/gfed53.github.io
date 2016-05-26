@@ -1,6 +1,5 @@
 #mast-head {
 	#menu {
-		// text-align: left;
 		.nav {
 			display: inline-block;
 			// text-align: right;
@@ -38,8 +37,10 @@
 		margin: 5em auto;
 		// text-align: center;
 		.mast-head-heading {
-			color: #1E824C;
+			font-family: "Droid Sans", sans-serif;
+			// color: #1E824C;
 			font-size: 8em;
+			font-weight: bolder;
 			margin-bottom: 0;
 		}
 		.mast-head-intro {
@@ -50,7 +51,7 @@
 				font-size: 2.5em;
 			}
 			#sub {
-				font-family: "Source Sans Pro", serif;
+				font-family: "Droid Sans", serif;
 				letter-spacing: 2px;
 				// text-align: right;
 				// font-style: italic;
