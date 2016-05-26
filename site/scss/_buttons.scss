@@ -1,0 +1,19 @@
+.button {
+	font-size: 1.5em;
+	border-radius: 0.25em;
+	background-color: white;	
+}
+
+.button-projects {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.25em 0.5em;
+	border: 1px solid black;
+	a {
+		text-decoration: none;
+		color: black
+	}
+	a:hover {
+		color: grey;
+	}
+}

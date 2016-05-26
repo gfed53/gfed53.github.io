@@ -10,6 +10,22 @@ html {
     html body #about .hidden {
       display: none; }
 
+.button {
+  font-size: 1.5em;
+  border-radius: 0.25em;
+  background-color: white; }
+
+.button-projects {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.25em 0.5em;
+  border: 1px solid black; }
+  .button-projects a {
+    text-decoration: none;
+    color: black; }
+  .button-projects a:hover {
+    color: grey; }
+
 #mast-head #menu .nav {
   display: inline-block; }
   #mast-head #menu .nav .spacer {
@@ -61,10 +77,6 @@ header {
   #about .about-content .about-button-wrapper {
     width: 100%;
     text-align: center; }
-    #about .about-content .about-button-wrapper input {
-      font-size: 1.5em;
-      border-radius: 0.25em;
-      background-color: white; }
   #about .about-more-content {
     width: 100%; }
     #about .about-more-content p {
@@ -78,6 +90,17 @@ header {
     font-weight: bold;
     font-size: 2em;
     text-align: center; }
+
+#projects .project {
+  margin: 6em 0; }
+  #projects .project h2 {
+    font-size: 2em;
+    text-align: center; }
+  #projects .project .left-column, #projects .project .right-column {
+    width: 45%;
+    display: inline-block; }
+    #projects .project .left-column .proj-pic, #projects .project .right-column .proj-pic {
+      width: 47em; }
 
 #mast-footer {
   background-color: black;
