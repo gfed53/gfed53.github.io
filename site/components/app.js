@@ -4,9 +4,9 @@ angular
 .config([config])
 .run(["$timeout", function($timeout){
 	console.log("running");
-	$timeout(function(){
-		$("#move-to").attr("autoscroll", "true");
-	}, 5000);
+	// $timeout(function(){
+	// 	$("#move-to").attr("autoscroll", "true");
+	// }, 5000);
 }])
 
 function config(){

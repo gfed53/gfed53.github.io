@@ -7,7 +7,7 @@ html {
     height: 100%; }
     html body #mast-content {
       margin-bottom: 17em; }
-    html body #about .hidden {
+    html body .hidden {
       display: none; }
 
 .button {
@@ -26,10 +26,12 @@ html {
   .button-projects a:hover {
     color: grey; }
 
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 1em; } }
+
 #mast-head #menu .nav {
   display: inline-block; }
-  #mast-head #menu .nav .spacer {
-    width: 20%; }
   #mast-head #menu .nav li {
     display: inline-block;
     margin: 1em;
@@ -49,6 +51,36 @@ html {
       color: black; }
     #mast-head #menu .nav-buttons .nav-button a:hover {
       color: grey; }
+
+#mast-head #menu .dropdown {
+  display: none;
+  position: relative;
+  float: right;
+  margin: 2em; }
+  #mast-head #menu .dropdown .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; }
+  #mast-head #menu .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+    #mast-head #menu .dropdown .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block; }
+
+@media screen and (max-width: 768px) {
+  #mast-head #menu .dropdown {
+    display: inline-block; }
+  #mast-head #menu .nav-buttons {
+    display: none; } }
 
 header {
   margin: 5em auto; }

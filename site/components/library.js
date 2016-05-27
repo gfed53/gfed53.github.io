@@ -4,6 +4,7 @@ angular
 .factory('myQuoteLib', [myQuoteLib])
 .factory('myViewToggle', [myViewToggle])
 .factory('myAutoscrollToggle', [myAutoscrollToggle])
+.factory('myStateChecker', [myStateChecker])
 
 function myProjects(){
 	return function(){
@@ -17,7 +18,7 @@ function myProjects(){
 			},
 			{
 				title: "Game Development with Flying Hadouken",
-				link: "//gfed53.github.io/flappy-bird/site/index.html",
+				link: "//gfed53.github.io/flappy-bird/flappy-bird/",
 				ghlink: "//github.com/gfed53/flappy-bird",
 				image: "./images-min/fbird.png",
 				blurb: "A app with a landing page that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates SASS for CSS preprocessing, and Gulp as a build-tool."
@@ -170,6 +171,12 @@ function myAutoscrollToggle(){
 			console.log("running");
 			$(target).attr("autoscroll", "true");
 		});	
+	}
+}
+
+function myStateChecker(){
+	return function(){
+
 	}
 }
 

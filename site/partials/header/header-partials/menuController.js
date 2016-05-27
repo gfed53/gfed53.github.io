@@ -4,9 +4,17 @@ angular
 
 function MenuCtrl(myAutoscrollToggle){
 	console.log("running");
-	// myAutoscrollToggle(".nav-button", "#mast-content");
-	// $(".nav-button").on("click", function(){
-	// 	$("#mast-content").attr("autoscroll", "true");
+	// $(".dropbtn").on("click", function(){
+	// 	$("#menu-dropdown-content").toggle();
 	// });
+	$(document).on("click", function(e){
+		console.log("window clicked");
+		var button = $(".dropbtn");
+		if (!button.is(e.target) && button.has(e.target).length === 0) {
+			$("#menu-dropdown-content").css("display", "none");
+		} else {
+			$("#menu-dropdown-content").css("display", "block");
+		}
+	});
 	
 }
