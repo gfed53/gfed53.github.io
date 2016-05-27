@@ -1,16 +1,36 @@
 #projects {
+	.project-main, .project-details {
+		// text-align: center;
+		display: inline-block;
+	}
+
 	.project {
 		h2 {
 			font-size: 2em;
 			text-align: center;
 		}
 		margin: 6em 0;
-		.left-column, .right-column {
+		.project-main {
 			width: 45%;
-			display: inline-block;
 			.proj-pic {
+				margin: 2em auto;
 				width: 47em;
+				border: 1px solid grey;
 			}		
 		}
+		.project-details {
+			width: 33%;
+			float: right;
+			margin-top: 8em;
+			ul, p {
+				// display: inline-block;
+				margin: 2em;
+			}
+			p {
+				max-width: 30em;
+				text-align: left;
+				font-style: italic;
+			}
+		}	
 	}
 }

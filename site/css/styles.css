@@ -91,16 +91,30 @@ header {
     font-size: 2em;
     text-align: center; }
 
+#projects .project-main, #projects .project-details {
+  display: inline-block; }
+
 #projects .project {
   margin: 6em 0; }
   #projects .project h2 {
     font-size: 2em;
     text-align: center; }
-  #projects .project .left-column, #projects .project .right-column {
-    width: 45%;
-    display: inline-block; }
-    #projects .project .left-column .proj-pic, #projects .project .right-column .proj-pic {
-      width: 47em; }
+  #projects .project .project-main {
+    width: 45%; }
+    #projects .project .project-main .proj-pic {
+      margin: 2em auto;
+      width: 47em;
+      border: 1px solid grey; }
+  #projects .project .project-details {
+    width: 33%;
+    float: right;
+    margin-top: 8em; }
+    #projects .project .project-details ul, #projects .project .project-details p {
+      margin: 2em; }
+    #projects .project .project-details p {
+      max-width: 30em;
+      text-align: left;
+      font-style: italic; }
 
 #mast-footer {
   background-color: black;

@@ -1,22 +1,26 @@
 <section id="projects">
 	<!-- <h1>My Projects</h1> -->
 	<div class="container projects-content" ng-repeat="project in projects.projectsArray">
-		<div ng-if="$index % 2 === 0" class="project">
+		<div class="project">
 			<h2>{{project.title}}</h2>
-			<div class="left-column">
+			<div class="project-main">
 				<div>
 					<img class="proj-pic" ng-src ="{{project.image}}">
-					<ul>
+<!-- 					<ul>
 						<li class="button button-projects"><a target="_blank" href= "{{project.link}}">Demo</a></li>
 						<li class="button button-projects"><a target="_blank" href="{{project.ghlink}}">Repo</a></li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
-			<div class="right-column">
+			<div class="project-details">			
 				<p>{{project.blurb}}</p>
+				<ul>
+					<li class="button button-projects"><a target="_blank" href= "{{project.link}}">Demo</a></li>
+					<li class="button button-projects"><a target="_blank" href="{{project.ghlink}}">Repo</a></li>
+				</ul>
 			</div>
 		</div>
-		<div ng-if="$index % 2 !== 0" class="project">
+<!-- 		<div ng-if="$index % 2 !== 0" class="project">
 			<h2>{{project.title}}</h2>
 			<div class="left-column">
 				<p>{{project.blurb}}</p>
@@ -30,6 +34,6 @@
 					</ul>
 				</div>	
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>
