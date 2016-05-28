@@ -1,5 +1,5 @@
 #about {
-	margin: 13em 0;
+	margin: 7em 0;
 	div {
 		width: 45%;
 		display: inline-block;
@@ -41,5 +41,31 @@
 		font-size: 2em;
 		text-align: center;
 	}
-	
 }
+
+@media screen and ($tablet){
+	#about {
+		.about-heading {
+			h1 {
+				font-size: 2em;
+			}
+		}
+		.about-content {
+			p {
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+@media screen and ($mobile){
+	#about {
+		margin: 3em 0;
+		div {
+			width: 100%;
+		}		
+	}
+}
+
+
+

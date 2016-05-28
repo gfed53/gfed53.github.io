@@ -32,6 +32,9 @@
 		.nav-mobile {
 			display: none;
 			padding: 2em;
+			img {
+				width: 1.5em;
+			}
 		}
 		.dropdown {
 			display: none;
@@ -39,7 +42,7 @@
 			float: right;
 			margin: 2em;
 			.dropbtn {
-				background-color: #4CAF50;
+				background-color: #347137;
 				color: white;
 			    padding: 6px 11px;
 			    line-height: 6px;

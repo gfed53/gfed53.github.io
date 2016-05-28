@@ -57,6 +57,8 @@ html {
 #mast-head #menu .nav-mobile {
   display: none;
   padding: 2em; }
+  #mast-head #menu .nav-mobile img {
+    width: 1.5em; }
 
 #mast-head #menu .dropdown {
   display: none;
@@ -64,7 +66,7 @@ html {
   float: right;
   margin: 2em; }
   #mast-head #menu .dropdown .dropbtn {
-    background-color: #4CAF50;
+    background-color: #347137;
     color: white;
     padding: 6px 11px;
     line-height: 6px;
@@ -125,7 +127,7 @@ header {
     text-align: center; } }
 
 #about {
-  margin: 13em 0; }
+  margin: 7em 0; }
   #about div {
     width: 45%;
     display: inline-block;
@@ -151,6 +153,18 @@ header {
     font-size: 2em;
     text-align: center; }
 
+@media screen and (max-width: 768px) {
+  #about .about-heading h1 {
+    font-size: 2em; }
+  #about .about-content p {
+    font-size: 1em; } }
+
+@media screen and (max-width: 550px) {
+  #about {
+    margin: 3em 0; }
+    #about div {
+      width: 100%; } }
+
 #projects .project-main, #projects .project-details {
   display: inline-block; }
 
@@ -160,21 +174,30 @@ header {
     font-size: 2em;
     text-align: center; }
   #projects .project .project-main {
-    width: 45%; }
+    width: 55%; }
     #projects .project .project-main .proj-pic {
       margin: 2em auto;
-      width: 47em;
+      width: 100%;
       border: 1px solid grey; }
   #projects .project .project-details {
-    width: 33%;
+    width: 40%;
     float: right;
-    margin-top: 8em; }
-    #projects .project .project-details ul, #projects .project .project-details p {
-      margin: 2em; }
+    margin-top: 1em; }
     #projects .project .project-details p {
       max-width: 30em;
       text-align: left;
       font-style: italic; }
+
+@media screen and (max-width: 768px) {
+  #projects .project-main, #projects .project-details {
+    display: block; }
+  #projects .project {
+    margin: 4em; }
+    #projects .project .project-main, #projects .project .project-details {
+      width: 100%; }
+    #projects .project .project-details {
+      margin-top: 0;
+      margin-bottom: 4em; } }
 
 #mast-footer {
   background-color: black;

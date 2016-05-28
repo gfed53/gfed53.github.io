@@ -11,20 +11,20 @@
 		}
 		margin: 6em 0;
 		.project-main {
-			width: 45%;
+			width: 55%;
 			.proj-pic {
 				margin: 2em auto;
-				width: 47em;
+				width: 100%;
 				border: 1px solid grey;
 			}		
 		}
 		.project-details {
-			width: 33%;
+			width: 40%;
 			float: right;
-			margin-top: 8em;
+			margin-top: 1em;
 			ul, p {
 				// display: inline-block;
-				margin: 2em;
+				// margin: 2em;
 			}
 			p {
 				max-width: 30em;
@@ -32,5 +32,23 @@
 				font-style: italic;
 			}
 		}	
+	}
+}
+
+@media screen and ($tablet){
+		#projects {
+			.project-main, .project-details {
+			display: block;
+		}
+		.project {
+			margin: 4em;
+			.project-main, .project-details {
+				width: 100%;
+			}
+			.project-details {
+				margin-top: 0;
+				margin-bottom: 4em;
+			}
+		}
 	}
 }
