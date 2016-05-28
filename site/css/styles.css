@@ -7,6 +7,8 @@ html {
     height: 100%; }
     html body #mast-content {
       margin-bottom: 17em; }
+    html body #about .hidden {
+      display: none; }
     html body .hidden {
       display: none; }
 
@@ -52,6 +54,10 @@ html {
     #mast-head #menu .nav-buttons .nav-button a:hover {
       color: grey; }
 
+#mast-head #menu .nav-mobile {
+  display: none;
+  padding: 2em; }
+
 #mast-head #menu .dropdown {
   display: none;
   position: relative;
@@ -60,16 +66,26 @@ html {
   #mast-head #menu .dropdown .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
+    padding: 6px 11px;
+    line-height: 6px;
+    height: 1.3em;
     font-size: 16px;
     border: none;
     cursor: pointer; }
+    #mast-head #menu .dropdown .dropbtn span {
+      display: block;
+      width: 19px;
+      height: 3px;
+      margin: 4px 0;
+      background: white;
+      z-index: 99; }
   #mast-head #menu .dropdown .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0.2em; }
     #mast-head #menu .dropdown .dropdown-content a {
       color: black;
       padding: 12px 16px;
@@ -81,6 +97,12 @@ html {
     display: inline-block; }
   #mast-head #menu .nav-buttons {
     display: none; } }
+
+@media screen and (max-width: 550px) {
+  #mast-head #menu .nav-email {
+    display: none; }
+  #mast-head #menu .nav-mobile {
+    display: inline-block; } }
 
 header {
   margin: 5em auto; }
@@ -97,11 +119,17 @@ header {
     font-family: "Droid Sans", serif;
     letter-spacing: 2px; }
 
+@media screen and (max-width: 550px) {
+  header .mast-head-heading {
+    font-size: 5em;
+    text-align: center; } }
+
 #about {
   margin: 13em 0; }
   #about div {
     width: 45%;
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: top; }
   #about .about-heading h1 {
     font-size: 3em; }
   #about .about-content p {

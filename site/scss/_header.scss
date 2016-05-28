@@ -23,3 +23,12 @@ header {
 		}
 	}	
 }
+
+@media screen and ($mobile){
+	header {
+		.mast-head-heading {
+			font-size: 5em;
+			text-align: center;
+		}
+	}
+}  

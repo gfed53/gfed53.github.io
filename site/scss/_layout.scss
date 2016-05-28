@@ -5,9 +5,11 @@ html {
 		#mast-content {
 			margin-bottom: 17em;
 		}
-		// #about {
-
-		// }
+		#about {
+			.hidden {
+				display: none;
+			}
+		}
 		.hidden {
 			display: none;
 		}
