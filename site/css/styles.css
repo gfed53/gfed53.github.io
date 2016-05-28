@@ -183,6 +183,8 @@ header {
     width: 40%;
     float: right;
     margin-top: 1em; }
+    #projects .project .project-details ul, #projects .project .project-details p {
+      padding: 0; }
     #projects .project .project-details p {
       max-width: 30em;
       text-align: left;
@@ -192,12 +194,21 @@ header {
   #projects .project-main, #projects .project-details {
     display: block; }
   #projects .project {
-    margin: 4em; }
+    margin: 4em 0; }
     #projects .project .project-main, #projects .project .project-details {
       width: 100%; }
     #projects .project .project-details {
       margin-top: 0;
-      margin-bottom: 4em; } }
+      margin-bottom: 4em;
+      text-align: center; }
+      #projects .project .project-details p {
+        margin: 0 auto; } }
+
+@media screen and (max-width: 550px) {
+  #projects .project .project-details {
+    margin-bottom: 2em; }
+    #projects .project .project-details p {
+      font-size: 0.7em; } }
 
 #mast-footer {
   background-color: black;
