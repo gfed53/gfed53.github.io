@@ -17,4 +17,20 @@
 			}
 		}
 	}
+	#footer-email {
+		text-align: center;
+		color: white;
+		letter-spacing: 1.5px;
+		padding-bottom: 3em;
+		// font-weight: bold;
+
+	}
 }
+
+@media screen and ($tablet){
+	#mast-footer {
+		#footer-email {
+			display: none;
+		}
+	}
+} 
