@@ -4,7 +4,8 @@ header {
 	.mast-head-heading {
 		font-family: "Droid Sans", sans-serif;
 		// color: #1E824C;
-		font-size: 8em;
+		font-size: 5em;
+		text-align: center;
 		font-weight: bolder;
 		margin-bottom: 0;
 	}
@@ -24,11 +25,20 @@ header {
 	}	
 }
 
-@media screen and ($mobile){
+// @media screen and ($mobile){
+// 	header {
+// 		.mast-head-heading {
+// 			font-size: 5em;
+// 			text-align: center;
+// 		}
+// 	}
+// } 
+
+@media screen and ($tablet){
 	header {
 		.mast-head-heading {
-			font-size: 5em;
-			text-align: center;
+			font-size: 8em;
+			text-align: left;
 		}
-	}
-}  
+	}	
+}

@@ -1,64 +1,35 @@
 #mast-head {
 	#menu {
-		.nav {
-			display: inline-block;
-			// text-align: right;
-			li {
-				display: inline-block;
-				margin: 1em;
-				padding: 1em;
-				font-weight: bold;
-			}
-		}
-		.nav-email {
-			padding: 0;
-			letter-spacing: 1.5px;
-		}
-		.nav-buttons {
-			float: right;
-			.nav-button {
-				border: 2px solid black;
-				// background-color: #00B16A;
-				a {
-					text-decoration: none;
-					// font-weight: bold;
-					color: black;
-				}
-				a:hover {
-					color: grey;
-				}
-			}			
-		}
-		.nav-mobile {
-			display: none;
-			padding: 2em;
-			img {
-				width: 1.5em;
-			}
-		}
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 5em;
+		background-color: rgba(255,255,255,0.5);
 		.dropdown {
-			display: none;
+			display: inline-block;
 			position: relative;
 			float: right;
 			margin: 2em;
 			.dropbtn {
 				background-color: #347137;
 				color: white;
-			    padding: 6px 11px;
-			    padding-bottom: 8px;
-			    line-height: 6px;
-			    height: 1.3em;
-			    font-size: 16px;
-			    border: none;
-			    cursor: pointer;
-			    span {
-			    	display: block;
-			    	width: 19px;
-			    	height: 3px;
-			    	margin: 4px 0;
-			    	background: white;
-			    	z-index: 99;
-			    }
+				padding: 6px 11px;
+				padding-bottom: 8px;
+				line-height: 6px;
+				height: 1.3em;
+				font-size: 16px;
+				border: none;
+				cursor: pointer;
+				span {
+					display: block;
+					width: 19px;
+					height: 3px;
+					margin: 4px 0;
+					background: white;
+					z-index: 99;
+				}
 			}
 			.dropdown-content {
 				display: none;
@@ -76,38 +47,80 @@
 				}
 			}
 		}
+		.nav {
+			display: inline-block;
+			li {
+				display: inline-block;
+				margin: 1em;
+				padding: 1em;
+				font-weight: bold;
+			}
+		}
+		.nav-buttons {
+			display: none;
+		}
+		.nav-email {
+			display: none;
+		}
+		.nav-mobile {
+			display: inline-block;
+			padding: 2em;
+			img {
+				width: 1.5em;
+			}
+		}
 	}
 }
+
+
 
 @media screen and ($tablet){
 	#mast-head {
 		#menu {
-			.dropdown {
+			position: static;
+			.nav, .nav-email, .nav-buttons {
 				display: inline-block;
+				li {
+					display: inline-block;
+					margin: 1em;
+					padding: 1em;
+					font-weight: bold;
+				}
+			}
+			.nav-email {
+				padding: 0;
+				letter-spacing: 1.5px;
 			}
 			.nav-buttons {
+				float: right;
+				.nav-button {
+					border: 2px solid black;
+					a {
+						text-decoration: none;
+						color: black;
+					}
+					a:hover {
+						color: grey;
+					}
+				}			
+			}
+			.nav-mobile, .dropdown , .dropdown-content {
 				display: none;
 			}
 		}
 	}
 }
 
-@media screen and ($mobile){
-	#mast-head {
-		#menu {
-			position: fixed;
-			top: 0;
-			left: 0;
-			bottom: 0;
-			right: 0;
-			height: 5em;
-			background-color: rgba(255,255,255,0.5);
-			.nav-email {
-				display: none;
-			}
-			.nav-mobile {
-				display: inline-block;
-			}
-		}
-	}
-}
+// @media screen and ($tablet){
+// 	#mast-head {
+// 		#menu {
+// 			.dropdown {
+// 				display: inline-block;
+// 			}
+// 			.nav-buttons {
+// 				display: none;
+// 			}
+// 		}
+// 	}
+// }
+

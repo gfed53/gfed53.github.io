@@ -1,7 +1,7 @@
 #about {
-	margin: 7em 0;
+	margin: 3em 0;
 	div {
-		width: 45%;
+		width: 100%;
 		display: inline-block;
 		vertical-align: top;
 	}
@@ -26,6 +26,7 @@
 	}
 	.about-more-content {
 		width: 100%;
+		margin-top: 3em;
 		p {
 			margin: 1em auto;
 			max-width: 60em;
@@ -43,8 +44,36 @@
 	}
 }
 
-@media screen and ($tablet){
+// @media screen and ($tablet){
+// 	#about {
+// 		.about-heading {
+// 			h1 {
+// 				font-size: 2em;
+// 			}
+// 		}
+// 		.about-content {
+// 			p {
+// 				font-size: 1em;
+// 			}
+// 		}
+// 	}
+// }
+
+// @media screen and ($mobile){
+// 	#about {
+// 		margin: 3em 0;
+// 		div {
+// 			width: 100%;
+// 		}		
+// 	}
+// }
+
+@media screen and ($fablet){
 	#about {
+		margin: 7em 0;
+		div {
+			width: 45%;
+		}
 		.about-heading {
 			h1 {
 				font-size: 2em;
@@ -58,12 +87,18 @@
 	}
 }
 
-@media screen and ($mobile){
+@media screen and ($tablet){
 	#about {
-		margin: 3em 0;
-		div {
-			width: 100%;
-		}		
+		.about-heading {
+			h1 {
+				font-size: 3em;
+			}
+		}
+		.about-content {
+			p {
+				font-size: 1.3em;
+			}
+		}
 	}
 }
 
