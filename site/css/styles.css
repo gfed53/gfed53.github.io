@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: #2A2B2B; }
+  color: #272727; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -12,6 +12,7 @@ html {
     max-width: 80em;
     padding: 0 4em; }
   html body {
+    background-color: #e8e8e8;
     height: 100%; }
     html body #mast-content {
       margin-bottom: 17em;
@@ -26,23 +27,24 @@ html {
     margin-top: 13em; } }
 
 .button {
+  display: inline-block;
+  margin: 1em;
+  padding: 1em;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 3px;
   font-size: 1em;
-  border-radius: 0.25em;
-  background-color: white; }
+  text-decoration: none;
+  color: black; }
 
 .button-projects {
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.25em 0.5em;
-  border: 1px solid black; }
-  .button-projects a {
-    text-decoration: none;
-    color: black; }
-  .button-projects a:hover {
-    color: grey; }
+  border: none; }
+
+.button:hover {
+  color: grey; }
 
 @media screen and (min-width: 550px) {
-  .button {
+  .button-projects {
     font-size: 1.5em; } }
 
 #mast-head #menu {
@@ -52,7 +54,7 @@ html {
   bottom: 0;
   right: 0;
   height: 5em;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(232, 232, 232, 0.5); }
   #mast-head #menu .dropdown {
     display: inline-block;
     position: relative;
@@ -104,10 +106,7 @@ html {
     #mast-head #menu .nav-email, #mast-head #menu .nav-buttons {
       display: inline-block; }
       #mast-head #menu .nav-email li, #mast-head #menu .nav-buttons li {
-        display: inline-block;
-        margin: 1em;
-        padding: 1em;
-        font-weight: bold; }
+        display: inline-block; }
     #mast-head #menu .nav-email {
       padding: 0;
       letter-spacing: 1.5px; }
@@ -209,11 +208,12 @@ header {
     text-align: center; }
     #projects .project .project-details ul, #projects .project .project-details p {
       padding: 0; }
+    #projects .project .project-details li {
+      display: inline-block; }
     #projects .project .project-details p {
       margin: 0 auto;
       max-width: 30em;
       text-align: left;
-      font-style: italic;
       font-size: 0.7em; }
 
 @media screen and (min-width: 550px) {
@@ -234,9 +234,9 @@ header {
       margin-top: 2em; } }
 
 #mast-footer {
-  background-color: #2A2B2B;
+  background-color: #272727;
   min-height: 20%;
-  color: white; }
+  color: #e8e8e8; }
   #mast-footer p {
     text-align: center;
     padding-top: 2em; }
