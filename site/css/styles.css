@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #2A2B2B; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -7,6 +8,9 @@ body {
 html {
   box-sizing: border-box;
   height: 100%; }
+  html .grid {
+    max-width: 80em;
+    padding: 0 4em; }
   html body {
     height: 100%; }
     html body #mast-content {
@@ -84,13 +88,6 @@ html {
         text-decoration: none;
         display: block;
         border: 1px solid grey; }
-  #mast-head #menu .nav {
-    display: inline-block; }
-    #mast-head #menu .nav li {
-      display: inline-block;
-      margin: 1em;
-      padding: 1em;
-      font-weight: bold; }
   #mast-head #menu .nav-buttons {
     display: none; }
   #mast-head #menu .nav-email {
@@ -104,9 +101,9 @@ html {
 @media screen and (min-width: 768px) {
   #mast-head #menu {
     position: static; }
-    #mast-head #menu .nav, #mast-head #menu .nav-email, #mast-head #menu .nav-buttons {
+    #mast-head #menu .nav-email, #mast-head #menu .nav-buttons {
       display: inline-block; }
-      #mast-head #menu .nav li, #mast-head #menu .nav-email li, #mast-head #menu .nav-buttons li {
+      #mast-head #menu .nav-email li, #mast-head #menu .nav-buttons li {
         display: inline-block;
         margin: 1em;
         padding: 1em;
@@ -144,7 +141,7 @@ header {
 
 @media screen and (min-width: 768px) {
   header .mast-head-heading {
-    font-size: 8em;
+    font-size: 6em;
     text-align: left; } }
 
 #about {
@@ -237,8 +234,12 @@ header {
       margin-top: 2em; } }
 
 #mast-footer {
-  background-color: black;
-  min-height: 20%; }
+  background-color: #2A2B2B;
+  min-height: 20%;
+  color: white; }
+  #mast-footer p {
+    text-align: center;
+    padding-top: 2em; }
   #mast-footer #social {
     margin: 0 auto;
     padding: 0;
@@ -246,7 +247,8 @@ header {
     #mast-footer #social li {
       display: inline-block;
       text-decoration: none;
-      padding: 3em 1em; }
+      padding: 1em 2em 2em 2em;
+      font-size: 1.2em; }
       #mast-footer #social li a {
         color: white; }
       #mast-footer #social li a:hover {
@@ -255,6 +257,7 @@ header {
     text-align: center;
     color: white;
     letter-spacing: 1.5px;
+    padding-top: 0;
     padding-bottom: 3em; }
 
 @media screen and (min-width: 768px) {

@@ -3,6 +3,10 @@
 }
 
 html {
+	.grid {
+		max-width: 80em;
+		padding: 0 4em;
+	}
 	box-sizing: border-box;
 	height: 100%;
 	body {

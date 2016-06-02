@@ -1,6 +1,11 @@
 #mast-footer {
-	background-color: black;
+	background-color: #2A2B2B;
 	min-height: 20%;
+	color: white;
+	p {
+		text-align: center;
+		padding-top: 2em;
+	}
 	#social {
 		margin: 0 auto;
 		padding: 0;
@@ -8,7 +13,8 @@
 		li {
 			display: inline-block;
 			text-decoration: none;
-			padding: 3em 1em;
+			padding: 1em 2em 2em 2em;
+			font-size: 1.2em;
 			a {
 				color: white;
 			}
@@ -21,6 +27,7 @@
 		text-align: center;
 		color: white;
 		letter-spacing: 1.5px;
+		padding-top: 0;
 		padding-bottom: 3em;
 		// font-weight: bold;
 
