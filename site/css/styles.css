@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: #272727; }
+  color: #1B1A1A; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -132,8 +132,7 @@ header {
     margin-bottom: 0; }
   header .mast-head-intro p {
     color: #00B16A;
-    text-align: center;
-    font-size: 2.5em; }
+    font-size: 2em; }
   header .mast-head-intro #sub {
     font-family: "Droid Sans", serif;
     letter-spacing: 2px; }
@@ -234,7 +233,7 @@ header {
       margin-top: 2em; } }
 
 #mast-footer {
-  background-color: #272727;
+  background-color: #1B1A1A;
   min-height: 20%;
   color: #e8e8e8; }
   #mast-footer p {
