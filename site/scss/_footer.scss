@@ -16,7 +16,7 @@
 			padding: 1em 1em 2em 1em;
 			font-size: 1em;
 			a {
-				color: white;
+				color: rgba(232, 232, 232, 1);
 			}
 			a:hover {
 				color: grey;
@@ -24,12 +24,16 @@
 		}
 	}
 	#footer-email {
+		// display: inline-block;
 		text-align: center;
 		color: white;
 		letter-spacing: 1.5px;
 		padding-top: 0;
 		padding-bottom: 3em;
 		// font-weight: bold;
+		a {
+			color: rgba(232, 232, 232, 1);
+		}
 
 	}
 }

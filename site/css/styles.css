@@ -86,7 +86,7 @@ html {
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       right: 0.2em; }
       #mast-head #menu .dropdown .dropdown-content a {
-        color: black;
+        color: #1B1A1A;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -116,13 +116,15 @@ html {
       padding: 2em;
       padding-right: 0;
       letter-spacing: 1.5px; }
+      #mast-head #menu .nav-email a {
+        color: #1B1A1A; }
     #mast-head #menu .nav-buttons {
       float: right; }
       #mast-head #menu .nav-buttons .nav-button {
-        border: 2px solid black; }
+        border: 2px solid #1B1A1A; }
         #mast-head #menu .nav-buttons .nav-button a {
           text-decoration: none;
-          color: black; }
+          color: #1B1A1A; }
         #mast-head #menu .nav-buttons .nav-button a:hover {
           color: grey; }
     #mast-head #menu .nav-mobile, #mast-head #menu .dropdown, #mast-head #menu .dropdown-content {
@@ -263,7 +265,7 @@ header {
       padding: 1em 1em 2em 1em;
       font-size: 1em; }
       #mast-footer #social li a {
-        color: white; }
+        color: #e8e8e8; }
       #mast-footer #social li a:hover {
         color: grey; }
   #mast-footer #footer-email {
@@ -272,6 +274,8 @@ header {
     letter-spacing: 1.5px;
     padding-top: 0;
     padding-bottom: 3em; }
+    #mast-footer #footer-email a {
+      color: #e8e8e8; }
 
 @media screen and (min-width: 400px) {
   #mast-footer #social li {
