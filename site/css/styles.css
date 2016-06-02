@@ -90,6 +90,10 @@ html {
         text-decoration: none;
         display: block;
         border: 1px solid grey; }
+  #mast-head #menu .nav {
+    display: inline-block; }
+    #mast-head #menu .nav li {
+      font-weight: bold; }
   #mast-head #menu .nav-buttons {
     display: none; }
   #mast-head #menu .nav-email {
@@ -108,7 +112,7 @@ html {
       #mast-head #menu .nav-email li, #mast-head #menu .nav-buttons li {
         display: inline-block; }
     #mast-head #menu .nav-email {
-      padding: 0;
+      padding: 2em;
       letter-spacing: 1.5px; }
     #mast-head #menu .nav-buttons {
       float: right; }
@@ -125,7 +129,7 @@ html {
 header {
   margin: 5em auto; }
   header .mast-head-heading {
-    font-family: "Droid Sans", sans-serif;
+    font-family: "Lora", sans-serif;
     font-size: 5em;
     text-align: center;
     font-weight: bolder;
@@ -134,8 +138,7 @@ header {
     color: #00B16A;
     font-size: 2em; }
   header .mast-head-intro #sub {
-    font-family: "Droid Sans", serif;
-    letter-spacing: 2px; }
+    font-family: "Droid Sans", serif; }
 
 @media screen and (min-width: 768px) {
   header .mast-head-heading {
