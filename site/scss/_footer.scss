@@ -13,8 +13,8 @@
 		li {
 			display: inline-block;
 			text-decoration: none;
-			padding: 1em 2em 2em 2em;
-			font-size: 1.2em;
+			padding: 1em 1em 2em 1em;
+			font-size: 1em;
 			a {
 				color: white;
 			}
@@ -34,8 +34,36 @@
 	}
 }
 
+@media screen and ($mobile2){
+	#mast-footer {
+		#social {
+			li {
+				padding: 1em 2em 2em 2em;
+				font-size: 1.2em;
+			}
+		}
+	}	
+}
+
+@media screen and ($fablet){
+	// #mast-footer {
+	// 	#social {
+	// 		li {
+	// 			padding: 1em 2em 2em 2em;
+	// 			font-size: 1.2em;
+	// 		}
+	// 	}
+	// }
+}
+
 @media screen and ($tablet){
 	#mast-footer {
+		#social {
+			li {
+				padding: 1em 2em 2em 2em;
+				font-size: 1.2em;
+			}
+		}
 		#footer-email {
 			display: none;
 		}

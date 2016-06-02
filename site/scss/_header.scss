@@ -4,7 +4,7 @@ header {
 	.mast-head-heading {
 		font-family: "Lora", sans-serif;
 		// color: #1E824C;
-		font-size: 5em;
+		font-size: 3.5em;
 		text-align: center;
 		font-weight: bolder;
 		margin-bottom: 0;
@@ -14,7 +14,7 @@ header {
 			// font-family: "Helvetica Neue", serif;
 			color: #00B16A;
 			// text-align: center;
-			font-size: 2em;
+			font-size: 1.5em;
 		}
 		#sub {
 			font-family: "Droid Sans", serif;
@@ -25,16 +25,15 @@ header {
 	}	
 }
 
-// @media screen and ($mobile){
-// 	header {
-// 		.mast-head-heading {
-// 			font-size: 5em;
-// 			text-align: center;
-// 		}
-// 	}
-// } 
+@media screen and ($mobile2){
+	header {
+		.mast-head-heading {
+			font-size: 4.5em;
+		}
+	}
+} 
 
-@media screen and ($tablet){
+@media screen and ($fablet){
 	header {
 		.mast-head-heading {
 			font-size: 6em;

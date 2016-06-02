@@ -3,13 +3,13 @@
 }
 
 html {
-	.grid {
-		max-width: 80em;
-		padding: 0 4em;
-	}
 	box-sizing: border-box;
 	height: 100%;
 	body {
+		.grid {
+			max-width: 80em;
+			padding: 0 2em;
+		}
 		background-color: rgba(232, 232, 232, 1);
 		height: 100%;
 		#mast-content {
@@ -30,6 +30,10 @@ html {
 @media screen and ($fablet){
 	html {
 		body {
+			// .grid {
+			// 	max-width: 80em;
+			// 	padding: 0 4em;
+			// }
 			#mast-content {
 				margin-top: 13em;
 			}
