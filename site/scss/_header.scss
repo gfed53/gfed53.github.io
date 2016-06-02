@@ -36,8 +36,20 @@ header {
 @media screen and ($fablet){
 	header {
 		.mast-head-heading {
-			font-size: 6em;
+			font-size: 3.5em;
 			text-align: left;
 		}
 	}	
 }
+
+@media screen and ($tablet){
+	header {
+		.mast-head-heading {
+			font-size: 5.2em;
+			text-align: left;
+		}
+	}
+}
+
+
+

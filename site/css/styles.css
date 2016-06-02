@@ -148,7 +148,12 @@ header {
 
 @media screen and (min-width: 550px) {
   header .mast-head-heading {
-    font-size: 6em;
+    font-size: 3.5em;
+    text-align: left; } }
+
+@media screen and (min-width: 768px) {
+  header .mast-head-heading {
+    font-size: 5.2em;
     text-align: left; } }
 
 #about {
@@ -183,15 +188,16 @@ header {
   #about {
     margin: 7em 0; }
     #about div {
-      width: 45%; }
+      width: 45%;
+      padding-right: 1em; }
     #about .about-heading h1 {
-      font-size: 2em; }
+      font-size: 1.7em; }
     #about .about-content p {
       font-size: 1em; } }
 
 @media screen and (min-width: 768px) {
   #about .about-heading h1 {
-    font-size: 3em; }
+    font-size: 2.3em; }
   #about .about-content p {
     font-size: 1.3em; } }
 
