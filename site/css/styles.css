@@ -35,13 +35,15 @@ html {
   border-radius: 3px;
   font-size: 1em;
   text-decoration: none;
-  color: black; }
+  color: black;
+  transition: 250ms linear all; }
 
 .button-projects {
   border: none; }
 
-.button:hover {
-  color: grey; }
+.button:hover, .button-projects:hover {
+  background-color: #00B16A;
+  color: #e8e8e8; }
 
 @media screen and (min-width: 550px) {
   .button-projects {
@@ -248,6 +250,22 @@ header {
       width: 40%;
       margin-top: 2em; } }
 
+@-webkit-keyframes my-links {
+  0% {
+    color: #e8e8e8; }
+  50% {
+    color: grey; }
+  100% {
+    color: #00B16A; } }
+
+@keyframes my-links {
+  0% {
+    color: #e8e8e8; }
+  50% {
+    color: grey; }
+  100% {
+    color: #00B16A; } }
+
 #mast-footer {
   background-color: #1B1A1A;
   min-height: 20%;
@@ -267,7 +285,10 @@ header {
       #mast-footer #social li a {
         color: #e8e8e8; }
       #mast-footer #social li a:hover {
-        color: grey; }
+        -webkit-animation: my-links 1s infinite;
+        animation: my-links 1s infinite;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate; }
   #mast-footer #footer-email {
     text-align: center;
     color: white;
@@ -285,6 +306,6 @@ header {
 @media screen and (min-width: 768px) {
   #mast-footer #social li {
     padding: 1em 2em 2em 2em;
-    font-size: 1.2em; }
+    font-size: 1.3em; }
   #mast-footer #footer-email {
     display: none; } }

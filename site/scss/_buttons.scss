@@ -14,6 +14,7 @@
 	font-size: 1em;
 	text-decoration: none;
 	color: black;
+	transition: 250ms linear all;
 	// a {
 	// 	text-decoration: none;
 	// 	color: black;
@@ -27,8 +28,11 @@
 	border: none;
 }
 
-.button:hover {
-	color: grey;
+// Animations
+
+.button:hover, .button-projects:hover {
+	background-color: #00B16A;
+	color: rgba(232, 232, 232, 1);
 }
 
 	@media screen and ($fablet){

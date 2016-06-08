@@ -1,3 +1,17 @@
+// Animations
+
+@-webkit-keyframes my-links {
+    0%   {color: rgba(232, 232, 232, 1);}
+    50%  {color: grey;}
+    100% {color: #00B16A;}
+}
+
+@keyframes my-links {
+    0%   {color: rgba(232, 232, 232, 1);}
+    50%  {color: grey;}
+    100% {color: #00B16A;}
+}
+
 #mast-footer {
 	background-color: #1B1A1A;
 	min-height: 20%;
@@ -17,9 +31,13 @@
 			font-size: 1em;
 			a {
 				color: rgba(232, 232, 232, 1);
+				// transition: 250ms linear all;
 			}
 			a:hover {
-				color: grey;
+				-webkit-animation: my-links 1s infinite;
+				animation: my-links 1s infinite;
+				-webkit-animation-direction: alternate;
+				animation-direction: alternate;
 			}
 		}
 	}
@@ -37,6 +55,10 @@
 
 	}
 }
+
+
+
+
 
 @media screen and ($mobile2){
 	#mast-footer {
@@ -65,7 +87,7 @@
 		#social {
 			li {
 				padding: 1em 2em 2em 2em;
-				font-size: 1.2em;
+				font-size: 1.3em;
 			}
 		}
 		#footer-email {
