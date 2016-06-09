@@ -17,8 +17,6 @@ html {
     html body #mast-content {
       margin-bottom: 17em;
       margin-top: 8em; }
-    html body #about .hidden {
-      display: none; }
     html body .hidden {
       display: none; }
 
@@ -280,10 +278,11 @@ header {
     #mast-footer #social li {
       display: inline-block;
       text-decoration: none;
-      padding: 1em 1em 2em 1em;
+      margin: 1em;
       font-size: 1em; }
       #mast-footer #social li a {
-        color: #e8e8e8; }
+        color: #e8e8e8;
+        padding: 0.8em; }
       #mast-footer #social li a:hover {
         -webkit-animation: my-links 1s infinite;
         animation: my-links 1s infinite;
@@ -293,19 +292,21 @@ header {
     text-align: center;
     color: white;
     letter-spacing: 1.5px;
-    padding-top: 0;
+    padding-top: 1em;
     padding-bottom: 3em; }
     #mast-footer #footer-email a {
       color: #e8e8e8; }
 
 @media screen and (min-width: 400px) {
   #mast-footer #social li {
-    padding: 1em 2em 2em 2em;
     font-size: 1.2em; } }
+
+@media screen and (min-width: 550px) {
+  #mast-footer #social li a {
+    padding: 1em 1.5em; } }
 
 @media screen and (min-width: 768px) {
   #mast-footer #social li {
-    padding: 1em 2em 2em 2em;
     font-size: 1.3em; }
   #mast-footer #footer-email {
     display: none; } }

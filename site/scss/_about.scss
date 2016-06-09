@@ -17,11 +17,6 @@
 		.about-button-wrapper {
 			width: 100%;
 			text-align: center;
-			// input {
-			// 	font-size: 1.5em;
-			// 	border-radius: 0.25em;
-			// 	background-color: white;
-			// }
 		}
 	}
 	.about-more-content {
@@ -43,30 +38,6 @@
 		text-align: center;
 	}
 }
-
-// @media screen and ($tablet){
-// 	#about {
-// 		.about-heading {
-// 			h1 {
-// 				font-size: 2em;
-// 			}
-// 		}
-// 		.about-content {
-// 			p {
-// 				font-size: 1em;
-// 			}
-// 		}
-// 	}
-// }
-
-// @media screen and ($mobile){
-// 	#about {
-// 		margin: 3em 0;
-// 		div {
-// 			width: 100%;
-// 		}		
-// 	}
-// }
 
 @media screen and ($fablet){
 	#about {

@@ -17,9 +17,9 @@ html {
 			margin-top: 8em;
 		}
 		#about {
-			.hidden {
-				display: none;
-			}
+			// .hidden {
+			// 	display: none;
+			// }
 		}
 		.hidden {
 			display: none;
@@ -30,10 +30,6 @@ html {
 @media screen and ($fablet){
 	html {
 		body {
-			// .grid {
-			// 	max-width: 80em;
-			// 	padding: 0 4em;
-			// }
 			#mast-content {
 				margin-top: 13em;
 			}
