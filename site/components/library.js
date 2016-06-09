@@ -4,17 +4,16 @@ angular
 .factory('myQuoteLib', [myQuoteLib])
 .factory('myViewToggle', [myViewToggle])
 .factory('myAutoscrollToggle', [myAutoscrollToggle])
-.factory('myStateChecker', [myStateChecker])
 
 function myProjects(){
 	return function(){
 		var projectsArray = [
 			{
-				title: "Using API's with Media Swirl",
+				title: "Using API's with Audio Swirl",
 				link: "//gfed53.github.io/API-Hack/index.html",
 				ghlink: "//github.com/gfed53/API-Hack",
 				image: "./images-min/mediaswirl.png",
-				blurb: "Using the TASTEKiD API, this app showcases the power of APIs and JSON objects."
+				blurb: "Using the TASTEKiD and Google Maps API, this app showcases the power of APIs and JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views."
 			},
 			{
 				title: "Game Development with Flying Hadouken",
@@ -25,11 +24,11 @@ function myProjects(){
 			},		
 
 			{
-				title: "Flickr Searcher",
+				title: "Flickr 'round the World",
 				link: "//gfed53.github.io/flickr-search/",
 				ghlink: "//github.com/gfed53/flickr-search",
 				image: "./images-min/flickr.png",
-				blurb: "Using Angular to create an API-driven app that utilizes built-in services to handle RESTful requests and promises."
+				blurb: "Using Angular to create an API mashup app that utilizes built-in services to handle RESTful requests and promises."
 			},
 
 			{
@@ -37,7 +36,7 @@ function myProjects(){
 				link: "//gfed53.github.io/ultimate-youtube-searcher/src/#/about",
 				ghlink: "//github.com/gfed53/ultimate-youtube-searcher",
 				image: "./images-min/ult-youtube.png",
-				blurb: "Using YouTube's Data API, this app showcases CORS requests and also implements ui.router for Angular.js, which deals with states and nested views to make a more modularized app."
+				blurb: "Using YouTube's Data API as well as the Google Maps API, this app showcases CORS requests and also implements UI.Router for Angular.js, which deals with states and nested views to make a more modularized app."
 			}
 
 		],
@@ -158,6 +157,7 @@ function myQuoteLib(){
 }
 
 function myViewToggle(){
+	//If used externally, will require a 'hidden' class that has a 'display: none' property.
 	return function(buttonId, contentId){
 		$(buttonId).on("click", function(){
 			$(contentId).toggleClass("hidden");
@@ -171,12 +171,6 @@ function myAutoscrollToggle(){
 			console.log("running");
 			$(target).attr("autoscroll", "true");
 		});	
-	}
-}
-
-function myStateChecker(){
-	return function(){
-
 	}
 }
 

@@ -1,6 +1,5 @@
 #projects {
 	.project-main, .project-details {
-		// text-align: center;
 		display: block;
 	}
 
@@ -35,53 +34,12 @@
 				margin: 0 auto;
 				max-width: 30em;
 				text-align: left;
-				// font-style: italic;
-				// font-size: 0.7em;
 			}
 		}	
 	}
 }
 
-// @media screen and ($tablet){
-// 	#projects {
-// 		.project-main, .project-details {
-// 			display: block;
-// 		}
-// 		.project {
-// 			margin: 4em 0;
-// 			.project-main, .project-details {
-// 				width: 100%;
-// 			}
-// 			.project-main {
-// 				// margin-top: 4em;
-// 			}
-// 			.project-details {
-// 				margin-top: 0;
-// 				margin-bottom: 4em;
-// 				text-align: center;
-// 				ul {
-
-// 				}
-// 				p {
-// 					margin: 0 auto;
-// 				}
-// 			}
-// 		}
-// 	}
-// }
-
-// @media screen and ($mobile){
-// 	#projects {
-// 		.project {
-// 			.project-details {
-// 				margin-bottom: 2em;
-// 				p {
-// 					font-size: 0.7em;
-// 				}
-// 			}
-// 		}
-// 	}
-// }
+//Media Queries
 
 @media screen and ($fablet){
 	#projects {

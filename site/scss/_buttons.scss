@@ -1,9 +1,3 @@
-// .button {
-// 	font-size: 1em;
-// 	border-radius: 0.25em;
-// 	background-color: white;	
-// }
-
 .button {
 	display: inline-block;
 	margin: 1em;
@@ -15,13 +9,6 @@
 	text-decoration: none;
 	color: black;
 	transition: 250ms linear all;
-	// a {
-	// 	text-decoration: none;
-	// 	color: black;
-	// }
-	// a:hover {
-	// 	color: grey;
-	// }
 }
 
 .button-projects {
@@ -35,13 +22,14 @@
 	color: rgba(232, 232, 232, 1);
 }
 
-	@media screen and ($fablet){
-		.button {
-			// font-size: 1.5em;
-		}
+//Media Queries
 
-		.button-projects {
-			font-size: 1.5em;
-			margin: 0.5em;
-		}
+@media screen and ($fablet){
+	.button {
 	}
+
+	.button-projects {
+		font-size: 1.5em;
+		margin: 0.5em;
+	}
+}

@@ -2,17 +2,6 @@ angular
 .module("myApp")
 .config(["$stateProvider", "$urlRouterProvider", config])
 
-.run(["$rootScope", "$uiViewScroll", function($rootScope, $uiViewScroll) {
-		// console.log("huh");
-	 //    $rootScope.$on("$routeChangeStart", function() {
-	 //        // $rootScope.isLoading = true;
-	 //    });
-	 //    $rootScope.$on("$routeChangeSuccess", function() {
-	 //    		console.log("change success");
-	 //    		$uiViewScroll("#mast-content");
-	 //    });
-	}]);
-
 function config($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise("/")
 	var myRoot = {
@@ -21,8 +10,6 @@ function config($stateProvider, $urlRouterProvider){
 		views: {
 			"header": {
 				templateUrl: "./partials/header/header.html"
-				// controller: "HeaderCtrl",
-				// controllerAs: "header"
 			},
 			"content": {
 				templateUrl: "./partials/home/home.html"

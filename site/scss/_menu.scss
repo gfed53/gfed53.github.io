@@ -50,9 +50,6 @@
 		.nav {
 			display: inline-block;
 			li {
-				// display: inline-block;
-				// margin: 1em;
-				// padding: 1em;
 				font-weight: bold;
 			}
 		}
@@ -82,9 +79,6 @@
 				display: inline-block;
 				li {
 					display: inline-block;
-					// margin: 1em;
-					// padding: 1em;
-					// font-weight: bold;
 				}
 			}
 			.nav-email {
@@ -114,17 +108,4 @@
 		}
 	}
 }
-
-// @media screen and ($tablet){
-// 	#mast-head {
-// 		#menu {
-// 			.dropdown {
-// 				display: inline-block;
-// 			}
-// 			.nav-buttons {
-// 				display: none;
-// 			}
-// 		}
-// 	}
-// }
 
