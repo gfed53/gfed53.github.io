@@ -12,7 +12,7 @@ function myProjects(){
 				title: "Using API's with Audio Swirl",
 				link: "//gfed53.github.io/API-Hack/index.html",
 				ghlink: "//github.com/gfed53/API-Hack",
-				image: "./images-min/mediaswirl.png",
+				image: "./images-min/audio-swirl.png",
 				blurb: "Using the TASTEKiD and Google Maps API, this app showcases the power of APIs and JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views."
 			},
 			{
@@ -27,7 +27,7 @@ function myProjects(){
 				title: "Flickr 'round the World",
 				link: "//gfed53.github.io/flickr-search/",
 				ghlink: "//github.com/gfed53/flickr-search",
-				image: "./images-min/flickr.png",
+				image: "./images-min/flickr-world.png",
 				blurb: "Using Angular to create an API mashup app that utilizes built-in services to handle RESTful requests and promises."
 			},
 
@@ -35,7 +35,7 @@ function myProjects(){
 				title: "Ultimate YouTube Searcher",
 				link: "//gfed53.github.io/ultimate-youtube-searcher/src/#/about",
 				ghlink: "//github.com/gfed53/ultimate-youtube-searcher",
-				image: "./images-min/ult-youtube.png",
+				image: "./images-min/ult-youtube-new.png",
 				blurb: "Using YouTube's Data API as well as the Google Maps API, this app showcases CORS requests and also implements UI.Router for Angular.js, which deals with states and nested views to make a more modularized app."
 			}
 
