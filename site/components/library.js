@@ -10,8 +10,8 @@ function myProjects(){
 		var projectsArray = [
 			{
 				title: "Using API's with Audio Swirl",
-				link: "//gfed53.github.io/API-Hack/index.html",
-				ghlink: "//github.com/gfed53/API-Hack",
+				link: "//gfed53.github.io/audio-swirl/#/directions",
+				ghlink: "//github.com/gfed53/audio-swirl",
 				image: "./images-min/audio-swirl.png",
 				blurb: "Using the TASTEKiD and Google Maps API, this app showcases the power of APIs and JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views."
 			},
