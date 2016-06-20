@@ -24,6 +24,7 @@ function config($stateProvider, $urlRouterProvider){
 			}
 		}
 	},
+	//Isolated home state to avoid confusion when distinguishing active states.
 	home = {
 		name: "home",
 		url: "home",
