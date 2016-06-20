@@ -3,7 +3,6 @@ angular
 .controller('MenuCtrl', ['myAutoscrollToggle', MenuCtrl])
 
 function MenuCtrl(myAutoscrollToggle){
-	console.log("running");
 	$(".dropbtn").on("click", function(){
 		$("#menu-dropdown-content").slideToggle(200);
 	});

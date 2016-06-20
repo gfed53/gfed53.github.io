@@ -45,6 +45,10 @@
 					display: block;
 					border: 1px solid grey;
 				}
+				.active {
+					background-color: #00B16A;
+					color: rgba(232, 232, 232, 1);
+				}
 			}
 		}
 		.nav {
@@ -82,8 +86,7 @@
 				}
 			}
 			.nav-email {
-				padding: 2em;
-				padding-right: 0;
+				padding: 2em 0;
 				letter-spacing: 1.5px;
 				a {
 					color: #1B1A1A;

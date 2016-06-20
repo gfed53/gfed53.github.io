@@ -39,7 +39,7 @@ html {
 .button-projects {
   border: none; }
 
-.button:hover, .button-projects:hover {
+.button:hover, .button-projects:hover, .active {
   background-color: #00B16A;
   color: #e8e8e8; }
 
@@ -91,6 +91,9 @@ html {
         text-decoration: none;
         display: block;
         border: 1px solid grey; }
+      #mast-head #menu .dropdown .dropdown-content .active {
+        background-color: #00B16A;
+        color: #e8e8e8; }
   #mast-head #menu .nav {
     display: inline-block; }
     #mast-head #menu .nav li {
@@ -113,8 +116,7 @@ html {
       #mast-head #menu .nav-email li, #mast-head #menu .nav-buttons li {
         display: inline-block; }
     #mast-head #menu .nav-email {
-      padding: 2em;
-      padding-right: 0;
+      padding: 2em 0;
       letter-spacing: 1.5px; }
       #mast-head #menu .nav-email a {
         color: #1B1A1A; }

@@ -1,9 +1,9 @@
 angular
-.module("myApp")
-.config(["$stateProvider", "$urlRouterProvider", config])
+.module('myApp')
+.config(['$stateProvider', '$urlRouterProvider', config])
 
 function config($stateProvider, $urlRouterProvider){
-	$urlRouterProvider.otherwise("/")
+	$urlRouterProvider.otherwise("home")
 	var myRoot = {
 		name: "root",
 		url: "/",
@@ -24,6 +24,16 @@ function config($stateProvider, $urlRouterProvider){
 			}
 		}
 	},
+	home = {
+		name: "home",
+		url: "home",
+		parent: "root",
+		views: {
+			"content@": {
+				templateUrl: "./partials/home/home.html",
+			}
+		}
+	}
 	about = {
 		name: "about",
 		url: "about",
@@ -51,6 +61,7 @@ function config($stateProvider, $urlRouterProvider){
 
 	$stateProvider
 	.state(myRoot)
+	.state(home)
 	.state(about)
 	.state(projects);
 }
