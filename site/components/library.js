@@ -168,7 +168,6 @@ function myViewToggle(){
 function myAutoscrollToggle(){
 	return function(link, target){
 		$(link).on("click", function(){
-			console.log("running");
 			$(target).attr("autoscroll", "true");
 		});	
 	}

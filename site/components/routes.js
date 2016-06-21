@@ -1,6 +1,11 @@
 angular
 .module('myApp')
 .config(['$stateProvider', '$urlRouterProvider', config])
+.run(function($rootScope){
+	$rootScope.$on('$stateChangeSuccess', function(){
+		window.scroll(0,0);
+	})	
+})
 
 function config($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise("home")
@@ -64,5 +69,6 @@ function config($stateProvider, $urlRouterProvider){
 	.state(myRoot)
 	.state(home)
 	.state(about)
-	.state(projects);
+	.state(projects)
 }
+
