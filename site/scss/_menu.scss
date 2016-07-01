@@ -66,9 +66,23 @@
 		.nav-icon {
 			display: inline-block;
 			padding: 2em 1em;
+			a {
+				text-decoration: none;
+			}
 			img {
 				width: 1.5em;
 				vertical-align: middle;
+			}
+		}
+		#icon-text {
+			transition: 250ms linear all;
+			color: #00B16A;
+			margin: 0.4em 0;
+
+		}
+		.icon-active {
+			#icon-text {
+				color: #E8E8E8;
 			}
 		}
 	}

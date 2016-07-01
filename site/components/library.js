@@ -2,8 +2,6 @@ angular
 .module('myApp')
 .factory('myProjects', [myProjects])
 .factory('myQuoteLib', [myQuoteLib])
-.factory('myViewToggle', [myViewToggle])
-.factory('myAutoscrollToggle', [myAutoscrollToggle])
 
 function myProjects(){
 	return function(){
@@ -156,21 +154,5 @@ function myQuoteLib(){
 	}
 }
 
-function myViewToggle(){
-	//If used externally, will require a 'hidden' class that has a 'display: none' property.
-	return function(buttonId, contentId){
-		$(buttonId).on("click", function(){
-			$(contentId).toggleClass("hidden");
-		})
-	}
-}
-
-function myAutoscrollToggle(){
-	return function(link, target){
-		$(link).on("click", function(){
-			$(target).attr("autoscroll", "true");
-		});	
-	}
-}
 
 

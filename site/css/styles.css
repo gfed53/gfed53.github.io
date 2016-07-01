@@ -106,9 +106,17 @@ html {
   #mast-head #menu .nav-icon {
     display: inline-block;
     padding: 2em 1em; }
+    #mast-head #menu .nav-icon a {
+      text-decoration: none; }
     #mast-head #menu .nav-icon img {
       width: 1.5em;
       vertical-align: middle; }
+  #mast-head #menu #icon-text {
+    transition: 250ms linear all;
+    color: #00B16A;
+    margin: 0.4em 0; }
+  #mast-head #menu .icon-active #icon-text {
+    color: #E8E8E8; }
 
 @media screen and (min-width: 768px) {
   #mast-head #menu {
