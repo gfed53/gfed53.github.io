@@ -113,8 +113,10 @@ html {
       vertical-align: middle; }
   #mast-head #menu #icon-text {
     transition: 250ms linear all;
-    color: #00B16A;
-    margin: 0.4em 0; }
+    color: #155d40;
+    font-size: 0.8em;
+    display: inline-block;
+    margin: 0 0.6em; }
   #mast-head #menu .icon-active #icon-text {
     color: #E8E8E8; }
 
