@@ -116,9 +116,11 @@ html {
     color: #155d40;
     font-size: 0.8em;
     display: inline-block;
-    margin: 0 0.6em; }
+    margin: 0 0.6em;
+    visibility: visible; }
   #mast-head #menu .icon-active #icon-text {
-    color: #E8E8E8; }
+    color: #E8E8E8;
+    visibility: hidden; }
 
 @media screen and (min-width: 768px) {
   #mast-head #menu {
