@@ -1,2 +1,2 @@
 angular
-.module('myApp', ['ui.router'])
+.module("myApp", ["ui.router"])

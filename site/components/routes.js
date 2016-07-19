@@ -1,13 +1,15 @@
 angular
-.module('myApp')
-.config(['$stateProvider', '$urlRouterProvider', config])
+.module("myApp")
+.config(["$compileProvider", "$stateProvider", "$urlRouterProvider", config])
 .run(function($rootScope){
-	$rootScope.$on('$stateChangeSuccess', function(){
+	$rootScope.$on("$stateChangeSuccess", function(){
 		window.scroll(0,0);
 	})	
 })
 
-function config($stateProvider, $urlRouterProvider){
+function config($compileProvider, $stateProvider, $urlRouterProvider){
+
+	$compileProvider.debugInfoEnabled(false);
 	$urlRouterProvider.otherwise("home")
 	var myRoot = {
 		name: "root",

@@ -1,6 +1,6 @@
 angular
-.module('myApp')
-.controller('AboutCtrl', ['myQuoteLib', AboutCtrl])
+.module("myApp")
+.controller("AboutCtrl", ["myQuoteLib", AboutCtrl])
 
 function AboutCtrl(myQuoteLib){
 	var vm = this;

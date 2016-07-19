@@ -1,6 +1,6 @@
 angular
-.module('myApp')
-.controller('ProjectsCtrl', ['myProjects', ProjectsCtrl])
+.module("myApp")
+.controller("ProjectsCtrl", ["myProjects", ProjectsCtrl])
 
 function ProjectsCtrl(myProjects){
 	var vm = this;

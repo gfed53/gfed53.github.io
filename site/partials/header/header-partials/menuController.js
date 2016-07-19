@@ -1,6 +1,6 @@
 angular
-.module('myApp')
-.controller('MenuCtrl', [MenuCtrl])
+.module("myApp")
+.controller("MenuCtrl", [MenuCtrl])
 
 function MenuCtrl(myAutoscrollToggle){
 	$(".dropbtn").on("click", function(){
