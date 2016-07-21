@@ -1,20 +1,23 @@
-<div class="nav nav-icon" ui-sref-active="icon-active"><a ui-sref="home"><img src="images-min/gF.png" alt=""><p id="icon-text"></a><i class="fa fa-toggle-left"></i> Back home</p></div>
+<div class="my-nav nav-icon" ui-sref-active="icon-active"><a ui-sref="home"><img src="images-min/gF.png" alt=""><p id="icon-text"></a><i class="fa fa-toggle-left"></i> Back home</p></div>
 
-<ul class="nav nav-buttons">
+<ul class="my-nav nav-buttons">
 	<li><a class="button button-nav" ui-sref="about" ui-sref-active="active">About Me</a></li>
 	<li><a class="button button-nav" ui-sref="projects" ui-sref-active="active">My Work</a></li>
 	<li><a class="button button-nav" href="mailto:gfederico7153@gmail.com">Contact</a></li>
 </ul>
 
-<div class="dropdown">
-	<div class="dropbtn">
+<div class="my-dropdown">
+	<div id="my-dropbtn" class="my-dropbtn" open="menu.open" ng-click="menu.toggle()">
 		<span></span>
 		<span></span>
 		<span></span>
 	</div>
-	<div id="menu-dropdown-content" class="dropdown-content">
+	<div id="menu-dropdown-content" class="dropdown-content" ng-if="menu.open" ng-click="menu.open = false">
 		<a ui-sref="about" ui-sref-active="active">About Me</a>
 		<a ui-sref="projects" ui-sref-active="active">My Work</a>
 		<a href="mailto:gfederico7153@gmail.com">Contact</a>
 	</div>
 </div>
+
+
+

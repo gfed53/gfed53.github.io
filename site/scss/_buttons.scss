@@ -10,10 +10,16 @@
 	transition: 250ms linear all;
 }
 
+.button:hover, .button:focus {
+	text-decoration: none;
+}
+
 .button-projects, .text-link {
 	border: none;
 	color: #00B16A;
 }
+
+
 
 // Animations
 

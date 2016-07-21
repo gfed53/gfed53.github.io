@@ -1,22 +1,21 @@
 angular
 .module("myApp")
-.controller("MenuCtrl", [MenuCtrl])
+.controller("MenuCtrl", ['$scope', '$element', 'myDropdown', MenuCtrl])
 
-function MenuCtrl(myAutoscrollToggle){
-	$(".dropbtn").on("click", function(){
-		$("#menu-dropdown-content").slideToggle(200);
-	});
+function MenuCtrl($scope, $element, myDropdown){
+	var vm = this;
+	vm.open = myDropdown().getStatus();
+	vm.toggle = toggle;
+	myDropdown().init(angular.element('#my-dropbtn'), check);
 
-	$("#menu-dropdown-content a").on("click", function(){
-		$("#menu-dropdown-content").css("display", "none");
-	});
+	function toggle(){
+		vm.open = !vm.open;
+	}
 
-
-	$(document).on("click", function(e){
-		var button = $(".dropbtn");
-		if (!button.is(e.target) && button.has(e.target).length === 0) {
-			$("#menu-dropdown-content").slideUp(200);
-		}
-	});
+	function check(){
+		$scope.$apply(function(){
+			vm.open = myDropdown().getStatus();
+		});
+	}
 	
 }
