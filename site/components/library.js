@@ -2,7 +2,7 @@ angular
 .module("myApp")
 .factory("myProjects", [myProjects])
 .factory("myQuoteLib", [myQuoteLib])
-.factory("myDropdown", ['$q', myDropdown])
+.factory("myDropdown", ["$q", myDropdown])
 
 function myProjects(){
 	return function(){
@@ -81,10 +81,10 @@ function myDropdown($q){
 		}
 
 		function init(element, callback){
-			document.addEventListener('click', function(e){
+			document.addEventListener("click", function(e){
 				if(!element.is(e.target) && element.has(e.target).length === 0){
-					if(document.getElementById('menu-dropdown-content')){
-						var content = document.getElementById('menu-dropdown-content'),
+					if(document.getElementById("menu-dropdown-content")){
+						var content = document.getElementById("menu-dropdown-content"),
 						contentClass = content.className;
 						content.className = "hidden "+contentClass;
 						open = false;
