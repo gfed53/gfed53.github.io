@@ -126,6 +126,20 @@ html {
   #mast-head #menu .open > .dropdown-menu {
     display: block; }
 
+#menu-dropdown-content.ng-enter {
+  transition: 250ms linear all;
+  opacity: 0; }
+
+#menu-dropdown-content.ng-enter.ng-enter-active {
+  opacity: 1; }
+
+#menu-dropdown-content.ng-leave {
+  transition: 250ms linear all;
+  opacity: 1; }
+
+#menu-dropdown-content.ng-leave.ng-leave-active {
+  opacity: 0; }
+
 @media screen and (min-width: 768px) {
   #mast-head #menu {
     position: static; }

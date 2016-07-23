@@ -84,9 +84,6 @@ function myDropdown($q){
 			document.addEventListener("click", function(e){
 				if(!element.is(e.target) && element.has(e.target).length === 0){
 					if(document.getElementById("menu-dropdown-content")){
-						var content = document.getElementById("menu-dropdown-content"),
-						contentClass = content.className;
-						content.className = "hidden "+contentClass;
 						open = false;
 						callback();
 					}

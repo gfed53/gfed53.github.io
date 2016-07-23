@@ -7,12 +7,12 @@
 </ul>
 
 <div class="my-dropdown">
-	<div id="my-dropbtn" class="my-dropbtn" open="menu.open" ng-click="menu.toggle()">
+	<div id="my-dropbtn" class="my-dropbtn" ng-click="menu.toggle()">
 		<span></span>
 		<span></span>
 		<span></span>
 	</div>
-	<div id="menu-dropdown-content" class="dropdown-content" ng-if="menu.open" ng-click="menu.toggle()">
+	<div id="menu-dropdown-content" class="dropdown-content" ng-if="menu.open">
 		<a ui-sref="about" ui-sref-active="active">About Me</a>
 		<a ui-sref="projects" ui-sref-active="active">My Work</a>
 		<a href="mailto:gfederico7153@gmail.com">Contact</a>

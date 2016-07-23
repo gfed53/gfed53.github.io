@@ -10,6 +10,21 @@ Since I've been hooked on Angular.js and ui.router, I used them for the function
 
 I intentionally did not add Bootstrap to this app in order to show both my CSS abilities outside of that library and that I'm not dependent on it, though it is, of course, a very useful library.
 
+## The Code
+
+The following is an explanation of my directory structure:
+
+* 'node_modules': mainly the backend dependencies
+
+* 'site':  the site itself and all of its frontend resources
+  * 'components': reusable services/factories as well as routing and other configs
+
+  * 'css': the css the index references, although I'm using SASS which is found in the 'scss' directory
+
+  * 'favicons', 'images', 'images-min': resources used in the site, 'images-min' being the minified versions of the images.
+
+  * 'partials': using ui.router, I create a subdirectory for each state/view containing its template url and controller if it has one.  
+
 ## Quick Links
 
 Here are quick references to the projects display in the portfolio -
