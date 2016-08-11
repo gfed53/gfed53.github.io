@@ -5,21 +5,21 @@ var imagemin = require("gulp-imagemin");
 
 //SASS
 gulp.task("sass", function(){
-	return gulp.src("site/scss/*.scss")
+	return gulp.src("scss/*.scss")
 	.pipe(sass())
-	.pipe(gulp.dest("site/css"));
+	.pipe(gulp.dest("css"));
 });
 
 // Image optimization task
 gulp.task("images", function() {
-  return gulp.src("site/images/*")
+  return gulp.src("images/*")
     .pipe(imagemin())
-    .pipe(gulp.dest("site/images-min"));
+    .pipe(gulp.dest("images-min"));
 });
 
 // Watch task
 gulp.task("watch", function(){
-	gulp.watch("site/scss/*", ["sass"]);
+	gulp.watch("scss/*", ["sass"]);
 });
 
 //Default
