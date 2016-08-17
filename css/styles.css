@@ -305,15 +305,10 @@ header {
       display: inline-block;
       text-decoration: none;
       margin: 1em 0.3em;
-      font-size: 1em; }
+      font-size: 0.9em; }
       #mast-footer #social li a {
         color: #e8e8e8;
         padding: 0.8em; }
-      #mast-footer #social li a:hover {
-        -webkit-animation: my-links 1s infinite;
-        animation: my-links 1s infinite;
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate; }
   #mast-footer #footer-email {
     text-align: center;
     color: white;
@@ -336,3 +331,10 @@ header {
     font-size: 1.3em; }
   #mast-footer #footer-email {
     display: none; } }
+
+@media screen and (min-width: 1024px) {
+  #mast-footer #social li a:hover {
+    -webkit-animation: my-links 1s infinite;
+    animation: my-links 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate; } }
