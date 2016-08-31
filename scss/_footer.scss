@@ -28,16 +28,10 @@
 			display: inline-block;
 			text-decoration: none;
 			margin: 1em 0.3em;
-			font-size: 1em;
+			font-size: 0.9em;
 			a {
 				color: rgba(232, 232, 232, 1);
 				padding: 0.8em;
-			}
-			a:hover {
-				-webkit-animation: my-links 1s infinite;
-				animation: my-links 1s infinite;
-				-webkit-animation-direction: alternate;
-				animation-direction: alternate;
 			}
 		}
 	}
@@ -87,6 +81,21 @@
 		}
 		#footer-email {
 			display: none;
+		}
+	}
+}
+
+@media screen and ($desktop){
+	#mast-footer {
+		#social {
+			li {
+				a:hover {
+					-webkit-animation: my-links 1s infinite;
+					animation: my-links 1s infinite;
+					-webkit-animation-direction: alternate;
+					animation-direction: alternate;
+				}
+			}
 		}
 	}
 }
