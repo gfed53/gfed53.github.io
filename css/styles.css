@@ -246,7 +246,6 @@ header {
   #projects .project .project-details {
     float: right;
     margin-top: 0;
-    margin-bottom: 2em;
     text-align: center; }
     #projects .project .project-details ul, #projects .project .project-details p {
       padding: 0; }
