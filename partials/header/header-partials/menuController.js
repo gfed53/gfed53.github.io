@@ -10,13 +10,11 @@ function MenuCtrl($scope, $element, myDropdown){
 
 	function toggle(){
 		vm.open = !vm.open;
-		console.log(vm.open);
 	}
 
 	function check(){
 		$scope.$apply(function(){
 			vm.open = myDropdown().getStatus();
-			console.log(vm.open);
 		});
 	}
 	
