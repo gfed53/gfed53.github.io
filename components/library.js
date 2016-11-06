@@ -34,7 +34,7 @@ function myProjects(){
 				title: "Ultimate YouTube Searcher",
 				link: "//gfed53.github.io/ultimate-youtube-searcher/src/#/about",
 				ghlink: "//github.com/gfed53/ultimate-youtube-searcher",
-				image: "./images-min/ult-youtube-new.png",
+				image: "./images-min/ult-youtube.png",
 				blurb: "Using YouTube's Data API, the Google Maps API, and the Yandex Translator API, this app showcases CORS requests and also implements UI.Router for Angular.js, which deals with states and nested views to make a more modularized app."
 			}
 
