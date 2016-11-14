@@ -19,7 +19,7 @@ function myProjects(){
 				link: "//gfed53.github.io/flappy-bird/flappy-bird/",
 				ghlink: "//github.com/gfed53/flappy-bird",
 				image: "./images-min/fbird.png",
-				blurb: "A app with a landing page that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates Sass for CSS preprocessing, and Gulp as a build-tool."
+				blurb: "An app with a landing page that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates Sass for CSS preprocessing, and Gulp as a build-tool."
 			},		
 
 			{
