@@ -9,7 +9,7 @@ function myProjects(){
 		var projectsArray = [
 			{
 				title: "Using API's with Audio Swirl",
-				link: "//gfed53.github.io/audio-swirl/src/#/directions",
+				link: "//gfed53.github.io/audio-swirl/src/",
 				ghlink: "//github.com/gfed53/audio-swirl",
 				image: "./images-min/audio-swirl.png",
 				blurb: "Using the TASTEKiD and Google Maps APIs, this app showcases the power of APIs and JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views."
@@ -32,7 +32,7 @@ function myProjects(){
 
 			{
 				title: "The Swiss Army YouTube Searcher",
-				link: "//gfed53.github.io/ultimate-youtube-searcher/src/#/about",
+				link: "//gfed53.github.io/ultimate-youtube-searcher/src/",
 				ghlink: "//github.com/gfed53/ultimate-youtube-searcher",
 				image: "./images-min/says.png",
 				blurb: "Using YouTube's Data API, the Google Maps API, and the Yandex Translator API, this app showcases CORS requests and also implements UI.Router for AngularJS, which deals with states and nested views to make a more modularized app."
