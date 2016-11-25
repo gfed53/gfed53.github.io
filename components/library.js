@@ -32,8 +32,8 @@ function myProjects(){
 
 			{
 				title: "The Swiss Army YouTube Searcher",
-				link: "//gfed53.github.io/ultimate-youtube-searcher/src/",
-				ghlink: "//github.com/gfed53/ultimate-youtube-searcher",
+				link: "//gfed53.github.io/youtube-searcher/src/",
+				ghlink: "//github.com/gfed53/youtube-searcher",
 				image: "./images-min/says.png",
 				blurb: "Using YouTube's Data API, the Google Maps API, and the Yandex Translator API, this app showcases CORS requests and also implements UI.Router for AngularJS, which deals with states and nested views to make a more modularized app."
 			}
