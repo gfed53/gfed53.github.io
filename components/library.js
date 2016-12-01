@@ -8,6 +8,13 @@ function myProjects(){
 	return function(){
 		var projectsArray = [
 			{
+				title: "The Swiss Army YouTube Searcher",
+				link: "//gfed53.github.io/youtube-searcher/src/",
+				ghlink: "//github.com/gfed53/youtube-searcher",
+				image: "./images-min/says.png",
+				blurb: "Using YouTube's Data API, the Google Maps API, and the Yandex Translator API, this app showcases CORS requests and also implements UI.Router for AngularJS, which deals with states and nested views to make a more modularized app."
+			},
+			{
 				title: "Using API's with Audio Swirl",
 				link: "//gfed53.github.io/audio-swirl/src/",
 				ghlink: "//github.com/gfed53/audio-swirl",
@@ -21,23 +28,13 @@ function myProjects(){
 				image: "./images-min/fbird.png",
 				blurb: "An app with a landing page that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates Sass for CSS preprocessing, and Gulp as a build-tool."
 			},		
-
 			{
 				title: "Flickr 'round the World",
 				link: "//gfed53.github.io/flickr-search/src",
 				ghlink: "//github.com/gfed53/flickr-search",
 				image: "./images-min/flickr-world.png",
 				blurb: "An AngularJS API mashup that utilizes built-in services to handle RESTful requests and promises."
-			},
-
-			{
-				title: "The Swiss Army YouTube Searcher",
-				link: "//gfed53.github.io/youtube-searcher/src/",
-				ghlink: "//github.com/gfed53/youtube-searcher",
-				image: "./images-min/says.png",
-				blurb: "Using YouTube's Data API, the Google Maps API, and the Yandex Translator API, this app showcases CORS requests and also implements UI.Router for AngularJS, which deals with states and nested views to make a more modularized app."
 			}
-
 		];
 
 		return {
