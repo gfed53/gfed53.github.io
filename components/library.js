@@ -15,7 +15,7 @@ function myProjects(){
 				blurb: "Using YouTube's Data API, the Google Maps API, and the Yandex Translator API, this app showcases CORS requests and also implements UI.Router for AngularJS, which deals with states and nested views to make a more modularized app."
 			},
 			{
-				title: "Using API's with Audio Swirl",
+				title: "Using APIs with Audio Swirl",
 				link: "//gfed53.github.io/audio-swirl/src/",
 				ghlink: "//github.com/gfed53/audio-swirl",
 				image: "./images-min/audio-swirl.png",
