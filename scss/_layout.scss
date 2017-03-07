@@ -1,37 +1,36 @@
 *, *:before, *:after {
 	box-sizing: inherit;
+	margin: 0;
 }
 
 html {
 	box-sizing: border-box;
 	height: 100%;
 	body {
-		.grid {
-			max-width: 80em;
+		.grid {	
 			margin: 0 auto;
-			padding: 0 2em;
 		}
 		background-color: rgba(232, 232, 232, 1);
 		height: 100%;
+		#mast-head, #about, .proj-heading-outer {
+			max-width: 80em;
+			margin: 0 auto;
+		}
 		#mast-content {
-			margin-bottom: 17em;
-			margin-top: 8em;
+			// padding-bottom: 5em;
 		}
 		.hidden {
 			display: none;
 		}
+		.container {
+			padding: 0 2em;
+		}
 	}
 }
 
-@media screen and ($fablet){
-	html {
-		body {
-			#mast-content {
-				margin-top: 13em;
-			}
-		}
-	}
-} 
+#about {
+	
+}
 
 
 

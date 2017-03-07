@@ -1,15 +1,25 @@
 #projects {
+	#projects-render {
+		// margin-top: 5em;
+	}
+	.proj-sub-heading {
+		margin: 2em;
+		color: #1B1A1A;
+	    font-size: 1.2em;
+	    text-align: center;
+	}
+	color: #fff;
 	.project-main, .project-details {
 		display: block;
 	}
 
 	.project {
 		h2 {
-			font-size: 2em;
+			font-size: 1.6em;
 			text-align: center;
-			color: #00B16A;
 		}
-		margin: 4em 0;
+		padding-top: 4em;
+		padding-bottom: 4em;
 		.project-main, .project-details {
 				width: 100%;
 			}
@@ -21,7 +31,6 @@
 			}		
 		}
 		.project-details {
-			float: right;
 			margin-top: 0;
 			text-align: center;
 			ul, p {
@@ -37,6 +46,21 @@
 			}
 		}	
 	}
+
+	.inner-project-content {
+		max-width: 1090px;
+		margin: 0 auto; 
+		// padding: 2em;
+	}
+
+	.project-coral {
+		background-color: $my-coral;
+	}
+	.project-dark-grey {
+		background-color: #444;
+	}
+
+
 }
 
 //Media Queries
@@ -56,18 +80,26 @@
 
 @media screen and ($tablet){
 	#projects {
+		.proj-sub-heading {
+			// font-size: 1.5em;
+		}
 		.project-main, .project-details {
 			display: inline-block;
 		}
 		.project {
-			margin: 6em 0;
+			padding-top: 6em;
+			padding-bottom: 6em;
 			.project-main {
 				width: 55%;	
 			}
 			.project-details {
+				float: right;
 				width: 40%;
 				margin-top: 2em;
 			}	
+		}
+		.inner-project-content {
+			padding: 0 2em;
 		}
 	}
 }

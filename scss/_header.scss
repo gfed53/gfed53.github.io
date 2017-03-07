@@ -1,20 +1,39 @@
 header {
-	margin: 5em auto;
+	margin: 5em auto 2em auto;
 	.mast-head-heading {
-		font-family: "Lora", sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
+		text-align: center;
 		font-size: 3.5em;
 		font-weight: bolder;
 		margin-bottom: 0;
 	}
 	.mast-head-intro {
 		p {
-			color: #00B16A;
+			color: $my-coral;
 			font-size: 1.5em;
 		}
 		#sub {
 			font-family: "Droid Sans", serif;
 		}
-	}	
+	}
+	.mast-head-next-mobile, .mast-head-next-desktop {
+		// margin-top: 3em;
+		text-align: center;
+		p {
+			color: #1B1A1A;
+			font-size: 1em;
+		}
+	}
+	.mast-head-next-desktop {
+		display: none;
+	}
+}
+
+.my-portrait {
+	width: 77%;
+	margin: 1em;
+	border-radius: 3em;
+	display: none;
 }
 
 
@@ -37,8 +56,30 @@ header {
 @media screen and ($tablet){
 	header {
 		.mast-head-heading {
-			font-size: 5.2em;
+			font-size: 5.5em;
+			vertical-align: top;
+			text-align: center;
+			display: inline-block;
+			width: 49%;
 		}
+
+		.mast-head-intro {
+			display: inline-block;
+			width: 50%;
+		}
+
+		.mast-head-next-mobile {
+			display: none;
+		}
+
+		.mast-head-next-desktop {
+			display: block;
+
+		}
+	}
+
+	.my-portrait {
+		display: inline-block;
 	}
 }
 

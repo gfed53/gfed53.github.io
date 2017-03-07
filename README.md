@@ -6,7 +6,9 @@ My portfolio contains a brief introduction to who I am and what I've done, do, a
 
 ## The Process
 
-Since I've been hooked on Angular.js and ui.router, I used them for the functionality of my page. I have different sections that are essentially states between which the user can toggle. The logic that is used is mainly handled within services and factories, such as my stored projects and quotes that I use.
+For the first iteration of my portfolio, I had used AngularJS along with ui.router to make it seem essentially like a single-page web app, allowing the user to toggle through different states, such as a home, about me, and projects section.
+
+For this iteration, I've decided to use jQuery as, in my opinion, it is much more useful for achieving a certain design and feeling, assuming not much advanced functionality will be involved (which, in this case, is true). Not only jQuery's library, but also its third party plugins, contribute to this usefulness. As of now, I will be using HandlebarsJS to take care of the functionality Angular originally handled.
 
 I intentionally did not add Bootstrap to this app in order to show both my CSS abilities outside of that library and that I'm not dependent on it, though it is, of course, a very useful library.
 
@@ -16,14 +18,9 @@ The following is an explanation of my directory structure:
 
 * 'node_modules': mainly the backend dependencies
 
-* 'site':  the site itself and all of its frontend resources
-  * 'components': reusable services/factories as well as routing and other configs
+* 'css': the css the index references, although I'm using SASS which is found in the 'scss' directory
 
-  * 'css': the css the index references, although I'm using SASS which is found in the 'scss' directory
-
-  * 'favicons', 'images', 'images-min': resources used in the site, 'images-min' being the minified versions of the images.
-
-  * 'partials': using ui.router, I create a subdirectory for each state/view containing its template url and controller if it has one.  
+* 'favicons', 'images', 'images-min': resources used in the site, 'images-min' being the minified versions of the images. 
 
 ## Quick Links
 

@@ -3,13 +3,13 @@
 @-webkit-keyframes my-links {
     0%   {color: rgba(232, 232, 232, 1);}
     50%  {color: grey;}
-    100% {color: #00B16A;}
+    100% {color: $my-coral;}
 }
 
 @keyframes my-links {
     0%   {color: rgba(232, 232, 232, 1);}
     50%  {color: grey;}
-    100% {color: #00B16A;}
+    100% {color: $my-coral;}
 }
 
 #mast-footer {
@@ -18,7 +18,8 @@
 	color: rgba(232, 232, 232, 1);
 	p {
 		text-align: center;
-		padding-top: 2em;
+		margin: 0;
+		padding-top: 3em;
 	}
 	#social {
 		margin: 0 auto;
@@ -44,7 +45,6 @@
 		a {
 			color: rgba(232, 232, 232, 1);
 		}
-
 	}
 }
 

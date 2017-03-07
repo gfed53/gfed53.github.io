@@ -1,4 +1,45 @@
 body {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 	color: #1B1A1A;
+	.sub-heading {
+		// margin-bottom: 3em;
+		h1 {
+			font-size: 1.4em;
+			color: $my-coral;
+		}
+	}
+
+	.sub-heading-alt {
+		margin: 2em 0;
+		width: 100%;
+		color: #1B1A1A;
+		font-weight: bold;
+		font-size: 1.6em;
+		text-align: center;
+		h2 {
+			font-size: 1em;
+		}
+	}
+
+
+}
+
+@media screen and ($tablet){
+	body{
+		.sub-heading {
+			// margin: 2em;
+			// margin-bottom: 3em;
+			h1 {
+				font-size: 1.6em;
+				color: $my-coral;
+			}
+		}
+
+		.sub-heading-alt {
+			h2 {
+				font-size: 1.3em;
+			}
+		}
+	}
+
 }
