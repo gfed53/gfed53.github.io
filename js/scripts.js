@@ -37,8 +37,19 @@ $(function(){
 	function init(){
 		quote();
 		projects();
+		animate();
 		
 	}
+
+	//Animations
+	function animate(){
+		$('body').velocity({
+			opacity: 1
+		},{
+			duration: 1300
+		});
+	}
+
 
 	init();
 });
