@@ -6,6 +6,9 @@ header {
 		font-size: 3.5em;
 		font-weight: bolder;
 		margin-bottom: 0;
+		span {
+			opacity: 0;
+		}
 	}
 	.mast-head-intro {
 		p {
@@ -17,7 +20,6 @@ header {
 		}
 	}
 	.mast-head-next-mobile, .mast-head-next-desktop {
-		// margin-top: 3em;
 		text-align: center;
 		p {
 			color: #1B1A1A;

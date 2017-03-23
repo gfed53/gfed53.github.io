@@ -259,6 +259,8 @@ header {
     font-size: 3.5em;
     font-weight: bolder;
     margin-bottom: 0; }
+    header .mast-head-heading span {
+      opacity: 0; }
   header .mast-head-intro p {
     color: #EC644B;
     font-size: 1.5em; }

@@ -38,7 +38,6 @@ $(function(){
 		quote();
 		projects();
 		animate();
-		
 	}
 
 	//Animations
@@ -48,6 +47,20 @@ $(function(){
 		},{
 			duration: 1300
 		});
+
+		setTimeout(()=>{
+			$('.mast-head-heading span:nth-child(1)').velocity({
+				opacity: 1
+			}, {
+				duration: 1000
+			});
+
+			$('.mast-head-heading span:nth-child(2)').velocity({
+				opacity: 1
+			}, {
+				duration: 1500
+			});
+		}, 100);
 	}
 
 
