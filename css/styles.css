@@ -42,54 +42,6 @@ html {
     html body .container {
       padding: 0 2em; }
 
-@-webkit-keyframes my-arrow-down {
-  0% {
-    top: 0; }
-  10% {
-    top: 0.05em; }
-  20% {
-    top: 0.1em; }
-  30% {
-    top: 0.15em; }
-  40% {
-    top: 0.2em; }
-  50% {
-    top: 0.25em; }
-  60% {
-    top: 0.3em; }
-  70% {
-    top: 0.35em; }
-  80% {
-    top: 0.4em; }
-  90% {
-    top: 0.45em; }
-  100% {
-    top: 0.5em; } }
-
-@keyframes my-arrow-down {
-  0% {
-    top: 0; }
-  10% {
-    top: 0.05em; }
-  20% {
-    top: 0.1em; }
-  30% {
-    top: 0.15em; }
-  40% {
-    top: 0.2em; }
-  50% {
-    top: 0.25em; }
-  60% {
-    top: 0.3em; }
-  70% {
-    top: 0.35em; }
-  80% {
-    top: 0.4em; }
-  90% {
-    top: 0.45em; }
-  100% {
-    top: 0.5em; } }
-
 .button {
   display: inline-block;
   margin: 1em;
@@ -112,26 +64,6 @@ html {
 
 .text-link {
   color: #EC644B; }
-
-.arrow-container {
-  font-size: 1.2em;
-  padding-bottom: 1em; }
-  .arrow-container a {
-    font-size: 1.2em;
-    color: #1B1A1A; }
-
-.my-arrow-down {
-  position: relative;
-  -webkit-animation: my-arrow-down 1s infinite;
-  animation: my-arrow-down 1s infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate; }
-
-.arrow-first a {
-  color: #00B16A; }
-
-.arrow-second a {
-  color: #E8E8E8; }
 
 .button-nav:hover, .active {
   background-color: #00B16A;
@@ -399,22 +331,6 @@ header {
   #projects .inner-project-content {
     padding: 0 2em; } }
 
-@-webkit-keyframes my-links {
-  0% {
-    color: #e8e8e8; }
-  50% {
-    color: grey; }
-  100% {
-    color: #EC644B; } }
-
-@keyframes my-links {
-  0% {
-    color: #e8e8e8; }
-  50% {
-    color: grey; }
-  100% {
-    color: #EC644B; } }
-
 #mast-footer {
   background-color: #1B1A1A;
   min-height: 20%;
@@ -457,10 +373,3 @@ header {
     font-size: 1.3em; }
   #mast-footer #footer-email {
     display: none; } }
-
-@media screen and (min-width: 1024px) {
-  #mast-footer #social li a:hover {
-    -webkit-animation: my-links 1s infinite;
-    animation: my-links 1s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate; } }

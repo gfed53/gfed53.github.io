@@ -37,11 +37,12 @@ $(function(){
 	function init(){
 		quote();
 		projects();
-		animate();
+		fadeIn();
+		footerLinksHover();
 	}
 
 	//Animations
-	function animate(){
+	function fadeIn(){
 		$('body').velocity({
 			opacity: 1
 		},{
@@ -61,6 +62,32 @@ $(function(){
 				duration: 1500
 			});
 		}, 100);
+	}
+
+	function footerLinksHover(){
+		$('#social li a').on('mouseenter', (event) => {
+			$(event.currentTarget).velocity({
+				color: '#000'
+			},{
+				duration: 200
+			}).velocity({
+				color: '#EC644B'
+			},{
+				duration: 200
+			});
+		});
+
+		$('#social li a').on('mouseleave', (event)=> {
+			$(event.currentTarget).velocity({
+				color: '#000'
+			},{
+				duration: 200
+			}).velocity({
+				color: '#FFF'
+			},{
+				duration: 200
+			});
+		});
 	}
 
 
