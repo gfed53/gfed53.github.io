@@ -371,5 +371,9 @@ header {
 @media screen and (min-width: 768px) {
   #mast-footer #social li {
     font-size: 1.3em; }
+    #mast-footer #social li a {
+      transition: 250ms ease-in-out all; }
+    #mast-footer #social li a:hover {
+      color: #EC644B; }
   #mast-footer #footer-email {
     display: none; } }

@@ -63,6 +63,12 @@
 		#social {
 			li {
 				font-size: 1.3em;
+				a {
+					transition: 250ms ease-in-out all;
+				}
+				a:hover {
+					color: $my-coral;
+				}
 			}
 		}
 		#footer-email {
