@@ -28,7 +28,7 @@
 		"link": "//gfed53.github.io/fun-landingpage-1",
 		"ghlink": "//github.com/gfed53/fun-landingpage-1",
 		"image": "./images-min/apti-1.png",
-		"blurb": "A landing page for a fictitious company with a simple, clean design, using jQuery, Sass, Velocity.js, CSS3 animations, and Fallings.js for parallax scrolling.",
+		"blurb": "A landing page for a fictitious company with a simple, clean design, using jQuery, Sass, Flexbox, Velocity.js, CSS3 animations, and Fallings.js for parallax scrolling.",
 		"class": "project-coral"
 	},
 	{
