@@ -96,13 +96,17 @@
 			<div class="container project">
 				<div class="inner-project-content">
 					<h2>{{ title }}</h2>
-					<div class="project-main">
-						<div>
-							<img class="proj-pic" src="{{ image }}">
+					<div class="project-flex-container">
+						<div class="project-main">
+							<div>
+								<img class="proj-pic" src="{{ image }}">
+							</div>
+						</div>
+						<div class="project-details">
+							<p>{{ blurb }}</p>
 						</div>
 					</div>
-					<div class="project-details">
-						<p>{{ blurb }}</p>
+					<div class="project-links">
 						<ul>
 							<li><a class="button button-projects" target="_blank" href= "{{ link }}">Demo</a></li>
 							<li><a class="button button-projects" target="_blank" href="{{ ghlink }}">Repo</a></li>

@@ -19,7 +19,7 @@
 }
 
 .button-projects {
-	// color: #E8E8E8;
+	color: $my-green;
 }
 
 .text-link {
@@ -45,7 +45,7 @@
 
 @media screen and ($tablet){
 	.button-projects:hover {
-		background-color: #383838;
+		background-color: $my-green;
 		color: white;
 	}
 }

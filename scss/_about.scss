@@ -1,8 +1,5 @@
 #about {
-	// padding-top: 4em;
-	// padding-bottom: 4em;
-	padding: 2em;
-	// padding-bottom: 4em;
+	padding: 2em 2em 0 2em;
 	.about-heading, .about-content {
 		width: 100%;
 		display: inline-block;
@@ -12,12 +9,10 @@
 		h1 {
 			font-size: 1.4em;
 			color: $my-coral;
-			// text-align: center;
 		}
 	}
 	.about-content {
 		display: block;
-		// max-width: 60em;
 		margin: 0 auto;
 		p {
 			font-size: 1em;
@@ -38,10 +33,9 @@
 	}
 
 	#quote-render {
-		margin: 1em 0;
+		// margin: 4em 0;
 		padding: 4em 0;
-		// border-top: 1px solid lightgrey;
-		// border-bottom: 1px solid lightgrey;
+		border-bottom: 1px solid #6C7A89;
 	}
 
 	#quote {
@@ -52,22 +46,15 @@
 @media screen and ($tablet){
 	#about {
 		margin-top: 6em;
-		.about-heading, .about-content {
-			// width: 45%;
-			// padding-right: 1em;
-		}
 		.about-heading {
 			h1 {
 				font-size: 1.6em;
 			}
 		}
 		.about-content {
-			p {
-				// font-size: 1em;
-			}
 		}
-		#quote {
-
+		#quote-render {
+			padding: 10em 0;
 		}
 	}
 }
