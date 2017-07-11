@@ -11,7 +11,7 @@ html {
 		.grid {	
 			margin: 0 auto;
 		}
-		background-color: rgba(232, 232, 232, 1);
+		background-color: $bg;
 		height: 100%;
 		#mast-head, #about, .proj-heading-outer {
 			max-width: 80em;

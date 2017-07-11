@@ -30,7 +30,7 @@ html {
   height: 100%; }
   html body {
     opacity: 0;
-    background-color: #e8e8e8;
+    background-color: #fff;
     height: 100%; }
     html body .grid {
       margin: 0 auto; }
@@ -59,9 +59,6 @@ html {
 .button-projects, .text-link {
   border: none; }
 
-.button-projects {
-  color: #E8E8E8; }
-
 .text-link {
   color: #EC644B; }
 
@@ -76,7 +73,8 @@ html {
 
 @media screen and (min-width: 768px) {
   .button-projects:hover {
-    background-color: #383838; } }
+    background-color: #383838;
+    color: white; } }
 
 #mast-head #menu {
   position: fixed;
@@ -261,6 +259,9 @@ header {
       margin: 1em auto;
       max-width: 60em;
       text-indent: 1em; }
+  #about #quote-render {
+    margin: 1em 0;
+    padding: 4em 0; }
   #about #quote {
     font-style: italic; }
 
@@ -270,45 +271,49 @@ header {
     #about .about-heading h1 {
       font-size: 1.6em; } }
 
-#projects {
-  color: #fff; }
-  #projects .proj-sub-heading {
-    margin: 2em;
-    color: #1B1A1A;
-    font-size: 1.2em;
+#projects .proj-sub-heading {
+  margin: 2em;
+  color: #1B1A1A;
+  font-size: 1.2em;
+  text-align: center; }
+
+#projects .project-main, #projects .project-details {
+  display: block; }
+
+#projects .project {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border-bottom: 1px solid #6C7A89; }
+  #projects .project h2 {
+    font-size: 1.6em;
     text-align: center; }
-  #projects .project-main, #projects .project-details {
-    display: block; }
-  #projects .project {
-    padding-top: 4em;
-    padding-bottom: 4em; }
-    #projects .project h2 {
-      font-size: 1.6em;
-      text-align: center; }
-    #projects .project .project-main, #projects .project .project-details {
-      width: 100%; }
-    #projects .project .project-main .proj-pic {
-      margin: 2em auto;
-      width: 100%;
-      border: 1px solid grey; }
-    #projects .project .project-details {
-      margin-top: 0;
-      text-align: center; }
-      #projects .project .project-details ul, #projects .project .project-details p {
-        padding: 0; }
-      #projects .project .project-details li {
-        display: inline-block; }
-      #projects .project .project-details p {
-        margin: 0 auto;
-        max-width: 30em;
-        text-align: left; }
-  #projects .inner-project-content {
-    max-width: 1090px;
-    margin: 0 auto; }
-  #projects .project-coral {
-    background-color: #EC644B; }
-  #projects .project-dark-grey {
-    background-color: #444; }
+  #projects .project .project-main, #projects .project .project-details {
+    width: 100%; }
+  #projects .project .project-main .proj-pic {
+    margin: 2em auto;
+    width: 100%;
+    border: 1px solid grey; }
+  #projects .project .project-details {
+    margin-top: 0;
+    text-align: center; }
+    #projects .project .project-details ul, #projects .project .project-details p {
+      padding: 0; }
+    #projects .project .project-details li {
+      display: inline-block; }
+    #projects .project .project-details p {
+      margin: 0 auto;
+      max-width: 30em;
+      text-align: left; }
+
+#projects .inner-project-content {
+  max-width: 1090px;
+  margin: 0 auto; }
+
+#projects .project-coral {
+  background-color: #EC644B; }
+
+#projects .project-dark-grey {
+  background-color: #444; }
 
 @media screen and (min-width: 550px) {
   #projects .project .project-details {
@@ -321,7 +326,8 @@ header {
     display: inline-block; }
   #projects .project {
     padding-top: 6em;
-    padding-bottom: 6em; }
+    padding-bottom: 6em;
+    margin: 0 3em; }
     #projects .project .project-main {
       width: 55%; }
     #projects .project .project-details {
