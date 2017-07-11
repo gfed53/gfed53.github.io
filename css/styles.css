@@ -61,7 +61,8 @@ html {
   border: none; }
 
 .button-projects {
-  color: #165415; }
+  color: #165415;
+  border-bottom: 2px solid #165415; }
 
 .text-link {
   color: #EC644B; }
@@ -391,6 +392,6 @@ header {
     #mast-footer #social li a {
       transition: 250ms ease-in-out all; }
     #mast-footer #social li a:hover {
-      color: #EC644B; }
+      color: #9e9e9e; }
   #mast-footer #footer-email {
     display: none; } }
