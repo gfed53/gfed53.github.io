@@ -87,17 +87,21 @@ html {
 
 .resume-link {
   display: inline-block;
+  font-size: 0.8em;
   padding: 1em;
   text-decoration: none;
   background-color: #165415;
-  color: #fbfbfb;
-  transition: 200ms ease-in-out all; }
+  color: #fbfbfb; }
   .resume-link i {
     transition: 200ms ease-in-out all; }
 
+@media screen and (min-width: 550px) {
+  .resume-link {
+    font-size: 1.1em; } }
+
 @media screen and (min-width: 768px) {
   .resume-link:hover i {
-    transform: translateX(3px); } }
+    transform: translateX(4px); } }
 
 header {
   padding: 5em 0 2em 0;

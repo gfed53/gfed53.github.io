@@ -5,6 +5,7 @@
 
 .resume-link {
 	display: inline-block;
+	font-size: 0.8em;
 	padding: 1em;
 	text-decoration: none;
 	background-color: $my-green;
@@ -15,8 +16,14 @@
 	}
 }
 
+@media screen and ($fablet){
+	.resume-link {
+		font-size: 1.1em;
+	}
+}
+
 @media screen and ($tablet){
 	.resume-link:hover i {
-		transform: translateX(3px);
+		transform: translateX(4px);
 	}
 }
