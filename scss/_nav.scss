@@ -1,0 +1,22 @@
+.resume-link-nav {
+	text-align: right;
+	padding: 2em;
+}
+
+.resume-link {
+	display: inline-block;
+	padding: 1em;
+	text-decoration: none;
+	background-color: $my-green;
+	color: $bg;
+
+	i {
+		transition: 200ms ease-in-out all;
+	}
+}
+
+@media screen and ($tablet){
+	.resume-link:hover i {
+		transform: translateX(3px);
+	}
+}

@@ -1,11 +1,12 @@
 *, *:before, *:after {
 	box-sizing: inherit;
 	margin: 0;
+	position: relative;
 }
 
 html {
 	box-sizing: border-box;
-	height: 100%;
+	// height: 100%;
 	body {
 		opacity: 0;
 		.grid {	

@@ -24,14 +24,14 @@ body {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  margin: 0; }
+  margin: 0;
+  position: relative; }
 
 html {
-  box-sizing: border-box;
-  height: 100%; }
+  box-sizing: border-box; }
   html body {
     opacity: 0;
-    background-color: #fff;
+    background-color: #fbfbfb;
     height: 100%; }
     html body .grid {
       margin: 0 auto; }
@@ -81,113 +81,27 @@ html {
     background-color: #165415;
     color: white; } }
 
-#mast-head #menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 5em;
-  background-color: rgba(232, 232, 232, 0.5); }
-  #mast-head #menu .my-dropdown {
-    display: inline-block;
-    position: relative;
-    float: right;
-    margin: 2em 1em; }
-    #mast-head #menu .my-dropdown .my-dropbtn {
-      background-color: #347137;
-      color: white;
-      padding: 6px 11px;
-      padding-bottom: 8px;
-      line-height: 6px;
-      height: 2.3em;
-      font-size: 16px;
-      border: none;
-      cursor: pointer; }
-      #mast-head #menu .my-dropdown .my-dropbtn span {
-        display: block;
-        width: 19px;
-        height: 3px;
-        margin: 4px 0;
-        background: white;
-        z-index: 99; }
-    #mast-head #menu .my-dropdown .dropdown-content {
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      right: 0.2em; }
-      #mast-head #menu .my-dropdown .dropdown-content a {
-        color: #1B1A1A;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        border: 1px solid grey; }
-      #mast-head #menu .my-dropdown .dropdown-content .active {
-        background-color: #00B16A;
-        color: #e8e8e8; }
-  #mast-head #menu .my-nav {
-    display: inline-block; }
-    #mast-head #menu .my-nav li {
-      font-weight: bold; }
-  #mast-head #menu .nav-buttons {
-    display: none; }
-  #mast-head #menu .nav-email {
-    display: none; }
-  #mast-head #menu .nav-icon {
-    display: inline-block;
-    padding: 2em 1em; }
-    #mast-head #menu .nav-icon a {
-      text-decoration: none; }
-    #mast-head #menu .nav-icon img {
-      width: 1.5em;
-      vertical-align: middle; }
-  #mast-head #menu #icon-text {
-    transition: 250ms linear all;
-    color: #155d40;
-    font-size: 0.8em;
-    display: inline-block;
-    margin: 0 0.6em;
-    visibility: visible; }
-  #mast-head #menu .icon-active #icon-text {
-    color: #E8E8E8;
-    visibility: hidden; }
-  #mast-head #menu .open > .dropdown-menu {
-    display: block; }
+.resume-link-nav {
+  text-align: right;
+  padding: 2em; }
 
-#menu-dropdown-content.ng-enter {
-  transition: 250ms linear all;
-  opacity: 0; }
-
-#menu-dropdown-content.ng-enter.ng-enter-active {
-  opacity: 1; }
-
-#menu-dropdown-content.ng-leave {
-  transition: 250ms linear all;
-  opacity: 1; }
-
-#menu-dropdown-content.ng-leave.ng-leave-active {
-  opacity: 0; }
+.resume-link {
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+  background-color: #165415;
+  color: #fbfbfb;
+  transition: 200ms ease-in-out all; }
+  .resume-link i {
+    transition: 200ms ease-in-out all; }
 
 @media screen and (min-width: 768px) {
-  #mast-head #menu {
-    position: static; }
-    #mast-head #menu .nav-email, #mast-head #menu .nav-buttons {
-      display: inline-block; }
-      #mast-head #menu .nav-email li, #mast-head #menu .nav-buttons li {
-        display: inline-block; }
-    #mast-head #menu .nav-email {
-      padding: 2em 0;
-      letter-spacing: 1.5px; }
-      #mast-head #menu .nav-email a {
-        color: #1B1A1A; }
-    #mast-head #menu .nav-buttons {
-      float: right; }
-    #mast-head #menu .my-dropdown, #mast-head #menu .dropdown-content {
-      display: none; } }
+  .resume-link:hover i {
+    transform: translateX(3px); } }
 
 header {
-  margin: 5em auto 2em auto; }
+  padding: 5em 0 2em 0;
+  margin: auto; }
   header .mast-head-heading {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
@@ -348,6 +262,9 @@ header {
       margin-top: 2em; }
   #projects .inner-project-content {
     padding: 0 2em; } }
+
+#resume-cta {
+  text-align: center; }
 
 #mast-footer {
   background-color: #1B1A1A;
