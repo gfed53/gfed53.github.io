@@ -1,14 +1,10 @@
 #projects {
-	#projects-render {
-		// margin-top: 5em;
-	}
 	.proj-sub-heading {
 		margin: 2em;
 		color: #1B1A1A;
 	    font-size: 1.2em;
 	    text-align: center;
 	}
-	// color: #fff;
 	.project-main, .project-details {
 		display: block;
 	}
@@ -70,18 +66,8 @@
 
 	.inner-project-content {
 		max-width: 1090px;
-		margin: 0 auto; 
-		// padding: 2em;
+		margin: 0 auto;
 	}
-
-	// .project-coral {
-	// 	background-color: $my-coral;
-	// }
-	// .project-dark-grey {
-	// 	background-color: #444;
-	// }
-
-
 }
 
 //Media Queries

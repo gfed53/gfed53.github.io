@@ -2,7 +2,6 @@ body {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 	color: #1B1A1A;
 	.sub-heading {
-		// margin-bottom: 3em;
 		h1 {
 			font-size: 1.4em;
 			color: $my-green;
@@ -20,15 +19,11 @@ body {
 			font-size: 1em;
 		}
 	}
-
-
 }
 
 @media screen and ($tablet){
 	body{
 		.sub-heading {
-			// margin: 2em;
-			// margin-bottom: 3em;
 			h1 {
 				font-size: 1.6em;
 			}
@@ -41,5 +36,4 @@ body {
 			}
 		}
 	}
-
 }
