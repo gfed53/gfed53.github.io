@@ -190,7 +190,8 @@ header {
 
 @media screen and (min-width: 768px) {
   #about {
-    margin-top: 6em; }
+    padding-left: 5em;
+    padding-right: 5em; }
     #about .about-heading h1 {
       font-size: 1.6em; }
     #about #quote-render {
@@ -245,7 +246,7 @@ header {
   #projects .project .project-details {
     margin-bottom: 4em; }
     #projects .project .project-details p {
-      font-size: 1em; } }
+      font-size: 1.1em; } }
 
 @media screen and (min-width: 768px) {
   #projects .project-main, #projects .project-details {

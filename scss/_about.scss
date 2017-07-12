@@ -33,7 +33,6 @@
 	}
 
 	#quote-render {
-		// margin: 4em 0;
 		padding: 4em 0;
 		border-bottom: 1px solid #6C7A89;
 	}
@@ -45,7 +44,8 @@
 
 @media screen and ($tablet){
 	#about {
-		margin-top: 6em;
+		padding-left: 5em; 
+		padding-right: 5em; 
 		.about-heading {
 			h1 {
 				font-size: 1.6em;
@@ -58,12 +58,6 @@
 		}
 	}
 }
-
-// @media screen and ($tablet){
-// 	#about {
-// 		margin-top: 6em;
-// 	}
-// }
 
 
 

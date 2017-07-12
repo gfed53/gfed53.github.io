@@ -38,6 +38,12 @@ $(function(){
 		quote();
 		projects();
 		fadeIn();
+
+		//Scroll Animations
+
+		AOS.init({
+			duration: 500,
+		});
 	}
 
 	//Animations
@@ -62,6 +68,8 @@ $(function(){
 			});
 		}, 100);
 	}
+
+
 
 
 	init();
