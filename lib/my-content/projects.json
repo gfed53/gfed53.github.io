@@ -4,7 +4,7 @@
 		"link": "http://youtube-searcher-8972.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/youtube-searcher-firebase",
 		"image": "./images-min/says.png",
-		"blurb": "Using the YouTube Data, Google Maps, and Yandex Translator APIs along with Google Firebase, this app showcases CORS requests, implements UI.Router for AngularJS, and also makes use of Google Firebase, allowing users to save certain data to the cloud.",
+		"blurb": "Using the YouTube Data, Google Maps, and Yandex Translator APIs, this app showcases CORS requests, implements UI.Router for AngularJS, and also makes use of Google Firebase, allowing users to save certain data to the cloud.",
 		"class": "project-dark-grey"
 	},
 	{
@@ -12,7 +12,7 @@
 		"link": "http://audio-swirl-123.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/audio-swirl",
 		"image": "./images-min/audio-swirl.png",
-		"blurb": "Using the TASTEKiD and Spotify APIs, this app showcases the power of APIs and JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views.",
+		"blurb": "Using the TASTEKiD and Spotify APIs, this app showcases the power of APIs and usefulness of JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views.",
 		"class": "project-coral"
 	},
 	{
@@ -20,7 +20,7 @@
 		"link": "//gfed53.github.io/flappy-bird/flappy-bird/",
 		"ghlink": "//github.com/gfed53/flappy-bird",
 		"image": "./images-min/fbird.png",
-		"blurb": "An app with a landing page that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates Sass for CSS preprocessing, and Gulp as a build-tool.",
+		"blurb": "An app that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates the use of Gulp as a build-tool.",
 		"class": "project-dark-grey"
 	},
 	{

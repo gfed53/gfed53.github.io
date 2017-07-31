@@ -17,9 +17,6 @@
   },
   "homepage": "https://github.com/gfed53/greg-federico-portfolio#readme",
   "devDependencies": {
-    "angular": "^1.5.5",
-    "angular-ui-bootstrap": "^2.0.0",
-    "angular-ui-router": "^0.2.18",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^2.4.0",
     "gulp-sass": "^2.3.1"
