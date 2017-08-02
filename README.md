@@ -32,7 +32,7 @@ Repo:
 https://github.com/gfed53/audio-swirl
 
 Demo:
-http://gfed53.github.io/audio-swirl/src/#/directions
+http://audio-swirl-123.herokuapp.com/
 
 ### Flying Hadouken:
 
@@ -48,15 +48,15 @@ Repo:
 https://github.com/gfed53/flickr-search
 
 Demo:
-http://gfed53.github.io/flickr-search/src/
+http://flickr-search-96860.herokuapp.com/
 
-### Ultimate YouTube Searcher
+### The Swiss Army YouTube Searcher
 
 Repo:
-https://github.com/gfed53/ultimate-youtube-searcher
+https//github.com/gfed53/youtube-searcher-firebase
 
 Demo:
-http://gfed53.github.io/ultimate-youtube-searcher/src/#/about
+http://youtube-searcher-8972.herokuapp.com/
 
 ## Contact
 
