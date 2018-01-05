@@ -1,26 +1,16 @@
 [
 	{
+		"title": "Ockupy Website",
+		"site_link": "http://www.ockupy.com",
+		"image": "./images-min/ockupy-site-1.png",
+		"blurb": "A website powered by ReactJS and Meteor displaying the work and services of Ockupy, a digital marketing agency with which I had the pleasure of working as a web developer intern. As part of a persistent team of two, we gave the website a responsive design overhaul and made several ammendments, including the eye-catching use of the particles.js, Tilt.js, and Rellax libraries."
+	},
+	{
 		"title": "The Swiss Army YouTube Searcher",
 		"link": "http://youtube-searcher-8972.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/youtube-searcher-firebase",
 		"image": "./images-min/says.png",
 		"blurb": "Using the YouTube Data, Google Maps, and Yandex Translator APIs, this app showcases CORS requests, implements UI.Router for AngularJS, and also makes use of Google Firebase, allowing users to save certain data to the cloud.",
-		"class": "project-dark-grey"
-	},
-	{
-		"title": "Using API's with Audio Swirl",
-		"link": "http://audio-swirl-123.herokuapp.com/",
-		"ghlink": "//github.com/gfed53/audio-swirl",
-		"image": "./images-min/audio-swirl.png",
-		"blurb": "Using the TASTEKiD and Spotify APIs, this app showcases the power of APIs and usefulness of JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views.",
-		"class": "project-coral"
-	},
-	{
-		"title": "Game Development with Flying Hadouken",
-		"link": "//gfed53.github.io/flappy-bird/flappy-bird/",
-		"ghlink": "//github.com/gfed53/flappy-bird",
-		"image": "./images-min/fbird.png",
-		"blurb": "An app that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates the use of Gulp as a build-tool.",
 		"class": "project-dark-grey"
 	},
 	{
@@ -32,12 +22,18 @@
 		"class": "project-coral"
 	},
 	{
-		"title": "Flickr 'round the World",
-		"link": "http://flickr-search-96860.herokuapp.com/",
-		"ghlink": "//github.com/gfed53/flickr-search",
-		"image": "./images-min/flickr-world.png",
-		"blurb": "An AngularJS API mashup that utilizes built-in services to handle RESTful requests and promises.",
-		"class": "project-dark-grey"
+		"title": "SpotiCycle",
+		"link": "http://ang2-spotify.herokuapp.com",
+		"ghlink": "//github.com/gfed53/ang2-spotify",
+		"image": "./images-min/spoticycle-1.png",
+		"blurb": "A self-motivated project using Angular 2+ and the Spotify API, allowing the user to search for artists and then cycle through related artists through infinite degrees of separation."
+	},
+	{
+		"title": "Using API's with Audio Swirl",
+		"link": "http://audio-swirl-123.herokuapp.com/",
+		"ghlink": "//github.com/gfed53/audio-swirl",
+		"image": "./images-min/audio-swirl.png",
+		"blurb": "Using the TASTEKiD and Spotify APIs, this app showcases the power of APIs and usefulness of JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views.",
+		"class": "project-coral"
 	}
-
 ]

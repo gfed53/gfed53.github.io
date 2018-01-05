@@ -1,0 +1,18 @@
+[
+  {
+		"title": "Game Development with Flying Hadouken",
+		"link": "//gfed53.github.io/flappy-bird/flappy-bird/",
+		"ghlink": "//github.com/gfed53/flappy-bird",
+		"image": "./images-min/fbird.png",
+		"blurb": "An app that brings together HTML Canvas, an Entity Component System, and a bit of physics in creating a Flappy Bird clone. Also demonstrates the use of Gulp as a build-tool.",
+		"class": "project-dark-grey"
+  },
+  {
+		"title": "Flickr 'round the World",
+		"link": "http://flickr-search-96860.herokuapp.com/",
+		"ghlink": "//github.com/gfed53/flickr-search",
+		"image": "./images-min/flickr-world.png",
+		"blurb": "An AngularJS API mashup that utilizes built-in services to handle RESTful requests and promises.",
+		"class": "project-dark-grey"
+	}
+]
