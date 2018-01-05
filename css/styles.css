@@ -117,8 +117,6 @@ header {
   header .mast-head-intro p {
     color: #EC644B;
     font-size: 1.5em; }
-  header .mast-head-intro #sub {
-    font-family: "Droid Sans", serif; }
   header .mast-head-next-mobile, header .mast-head-next-desktop {
     text-align: center; }
     header .mast-head-next-mobile p, header .mast-head-next-desktop p {
@@ -130,7 +128,7 @@ header {
 .my-portrait {
   width: 77%;
   margin: 1em;
-  border-radius: 3em;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
   display: none; }
 
 @media screen and (min-width: 400px) {
@@ -225,7 +223,7 @@ header {
   #projects .project .project-main .proj-pic {
     margin: 2em auto;
     width: 100%;
-    border: 1px solid grey; }
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5); }
   #projects .project .project-details, #projects .project .project-links {
     margin-top: 0;
     text-align: center; }
