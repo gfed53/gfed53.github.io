@@ -35,8 +35,7 @@
 			.proj-pic {
 				margin: 2em auto;
 				width: 100%;
-				// border: 1px solid grey;
-				box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+				box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
 			}		
 		}
 
@@ -63,15 +62,15 @@
 		}
 	}
 
-
-
 	.inner-project-content {
 		max-width: 1090px;
 		margin: 0 auto;
 	}
 }
 
-//Media Queries
+
+/* MEDIA QUERIES
+-------------------------------*/
 
 @media screen and ($fablet){
 	#projects {
@@ -103,7 +102,7 @@
 				flex: 1;
 			}
 			.project-main {
-				width: 55%;	
+				width: 55%;
 			}
 			.project-details {
 				float: right;
@@ -117,4 +116,14 @@
 	}
 }
 
-
+@media screen and ($fablet) and ($tablet-max), ($desktop){
+	#projects {
+		.project {
+			.project-main {
+				.proj-pic {
+					box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+				}
+			}
+		}
+	}
+}
