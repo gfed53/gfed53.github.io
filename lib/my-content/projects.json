@@ -10,16 +10,14 @@
 		"link": "http://youtube-searcher-8972.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/youtube-searcher-firebase",
 		"image": "./images-min/says.png",
-		"blurb": "Using the YouTube Data, Google Maps, and Yandex Translator APIs, this app showcases CORS requests, implements UI.Router for AngularJS, and also makes use of Google Firebase, allowing users to save certain data to the cloud.",
-		"class": "project-dark-grey"
+		"blurb": "A YouTube-powered app which, using Angular 1.x and the YouTube Data, Google Maps, and Yandex Translator APIs, allows the user to make fine-grain, robust video and channel searches, as well as create an account where they can save videos and specific “searches” to a Google Firebase database."
 	},
 	{
-		"title": "The AptiPlex Landing Page",
+		"title": "AptiPlex Landing Page",
 		"site_link": "//gfed53.github.io/fun-landingpage-1",
 		"ghlink": "//github.com/gfed53/fun-landingpage-1",
 		"image": "./images-min/apti-1.png",
-		"blurb": "A landing page for a fictitious company with a simple, clean design, using jQuery, Sass, Flexbox, Velocity.js, CSS3 animations, and Fallings.js for parallax scrolling.",
-		"class": "project-coral"
+		"blurb": "A landing page for a fictitious company with a simple, clean design, using jQuery, Sass, Flexbox, Velocity.js, CSS3 animations, and Fallings.js for parallax scrolling."
 	},
 	{
 		"title": "SpotiCycle",
@@ -29,11 +27,10 @@
 		"blurb": "A self-motivated project using Angular 2+ and the Spotify API, allowing the user to search for artists and then cycle through related artists of infinite degrees of separation."
 	},
 	{
-		"title": "Using API's with Audio Swirl",
+		"title": "Audio Swirl",
 		"link": "http://audio-swirl-123.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/audio-swirl",
 		"image": "./images-min/audio-swirl.png",
-		"blurb": "Using the TASTEKiD and Spotify APIs, this app showcases the power of APIs and usefulness of JSON objects, as well as AngularJS's UI.Router to promote modularity through nested states and views.",
-		"class": "project-coral"
+		"blurb": "A music-based app powered by Angular 1.x as well as the TASTKiD and Spotify APIs. Users can search for an artist and then retrieve a collection of related artists, then access the artists’ Spotify pages from within the app."
 	}
 ]
