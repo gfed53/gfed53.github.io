@@ -24,7 +24,41 @@ The following is an explanation of my directory structure:
 
 ## Quick Links
 
-Here are quick references to the projects display in the portfolio -
+Here are quick references to the projects display in the portfolio:
+
+
+### Ockupy Website
+
+Site:
+http://www.ockupy.com
+
+
+### The Swiss Army YouTube Searcher
+
+Repo:
+https://github.com/gfed53/youtube-searcher-firebase
+
+Demo:
+http://youtube-searcher-8972.herokuapp.com/
+
+
+### AptiPlex Landing Page
+
+Repo:
+https://github.com/gfed53/fun-landingpage-1
+
+Site:
+https://gfed53.github.io/fun-landingpage-1
+
+
+### SpotiCycle
+
+Repo:
+https://github.com/gfed53/ang2-spotify
+
+Demo:
+http://ang2-spotify.herokuapp.com 
+
 
 ### Audio Swirl:
 
@@ -34,6 +68,12 @@ https://github.com/gfed53/audio-swirl
 Demo:
 http://audio-swirl-123.herokuapp.com/
 
+
+## Other Work
+
+Here are some projects that may be of interest:
+
+
 ### Flying Hadouken:
 
 Repo:
@@ -41,6 +81,7 @@ https://github.com/gfed53/flappy-bird
 
 Demo:
 http://gfed53.github.io/flappy-bird/flappy-bird/
+
 
 ### Flickr 'round the World
 
@@ -50,13 +91,6 @@ https://github.com/gfed53/flickr-search
 Demo:
 http://flickr-search-96860.herokuapp.com/
 
-### The Swiss Army YouTube Searcher
-
-Repo:
-https//github.com/gfed53/youtube-searcher-firebase
-
-Demo:
-http://youtube-searcher-8972.herokuapp.com/
 
 ## Contact
 
