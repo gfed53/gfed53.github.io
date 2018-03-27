@@ -71,7 +71,7 @@ http://audio-swirl-123.herokuapp.com/
 
 ## Other Work
 
-Here are some projects that may be of interest:
+Here are some other projects that may be of interest:
 
 
 ### Flying Hadouken:

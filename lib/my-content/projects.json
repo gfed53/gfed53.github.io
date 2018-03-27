@@ -6,18 +6,25 @@
 		"blurb": "A website powered by ReactJS and Meteor displaying the work and services of Ockupy, a digital marketing agency with which I had the pleasure of working as a web developer intern. As part of a persistent team of two, we gave the website a responsive design overhaul and made several ammendments, including the eye-catching use of the particles.js, Tilt.js, and Rellax libraries."
 	},
 	{
+		"title": "GameHunter",
+		"link": "http://game-hunter-315.herokuapp.com/",
+		"ghlink": "https://github.com/gfed53/ang-mongo-igdb",
+		"image": "./images-min/game-hunter.png",
+		"blurb": "A video game-themed MEAN stack app powered by the IGDB API. This app allows the user to search for a particular game of interest, then grab similar games based on user-specified criteria (restricting game platform, time period, etc.) as well as an internal algorithm I've created."
+	},
+	{
 		"title": "The Swiss Army YouTube Searcher",
 		"link": "http://youtube-searcher-8972.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/youtube-searcher-firebase",
 		"image": "./images-min/says.png",
-		"blurb": "A YouTube-powered app which, using Angular 1.x and the YouTube Data, Google Maps, and Yandex Translator APIs, allows the user to make fine-grain, robust video and channel searches, as well as create an account where they can save videos and specific “searches” to a Google Firebase database."
+		"blurb": "A YouTube-based app powered by Angular 1.x and the YouTube Data, Google Maps, and Yandex Translator APIs. It allows the user to make fine-grain, robust video and channel searches, as well as create an account where they can save videos and specific “searches” to a Google Firebase database."
 	},
 	{
-		"title": "AptiPlex Landing Page",
-		"site_link": "//gfed53.github.io/fun-landingpage-1",
-		"ghlink": "//github.com/gfed53/fun-landingpage-1",
-		"image": "./images-min/apti-1.png",
-		"blurb": "A landing page for a fictitious company with a simple, clean design, using jQuery, Sass, Flexbox, Velocity.js, CSS3 animations, and Fallings.js for parallax scrolling."
+		"title": "Rich Text Post Feed",
+		"link": "http://gregs-cms-123.herokuapp.com/home",
+		"ghlink": "https://github.com/gfed53/meteor-react-cms",
+		"image": "./images-min/post-feed.png",
+		"blurb": "A post feed and rich text-based content management system built with ReactJS, Draft.js, and Meteor. This app implements an accounts system and allows you to create posts using rich-text, such as bold, italics, underline as well as headers, lists, etc."
 	},
 	{
 		"title": "SpotiCycle",
@@ -25,12 +32,5 @@
 		"ghlink": "//github.com/gfed53/ang2-spotify",
 		"image": "./images-min/spoticycle-1.png",
 		"blurb": "A self-motivated project using Angular 2+ and the Spotify API, allowing the user to search for artists and then cycle through related artists of infinite degrees of separation."
-	},
-	{
-		"title": "Audio Swirl",
-		"link": "http://audio-swirl-123.herokuapp.com/",
-		"ghlink": "//github.com/gfed53/audio-swirl",
-		"image": "./images-min/audio-swirl.png",
-		"blurb": "A music-based app powered by Angular 1.x as well as the TASTKiD and Spotify APIs. Users can search for an artist and then retrieve a collection of related artists, then access the artists’ Spotify pages from within the app."
 	}
 ]
