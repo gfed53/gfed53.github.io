@@ -12,7 +12,8 @@
 		"link": "http://flickr-search-96860.herokuapp.com/",
 		"ghlink": "//github.com/gfed53/flickr-search",
 		"image": "./images-min/flickr-world.png",
-		"blurb": "An AngularJS API mashup that utilizes built-in services to handle RESTful requests and promises.",
+		"blurb": "A nature-themed app powered by AngularJS along with the Flickr, Google Maps, and Yandex Translate APIs that enables users to search for nature-based photos based within a selected area of the globe.",
+		"blurb-old": "An AngularJS API mashup that utilizes built-in services to handle RESTful requests and promises.",
 		"class": "project-dark-grey"
 	},
 	{
@@ -29,4 +30,11 @@
 		"image": "./images-min/apti-1.png",
 		"blurb": "A landing page for a fictitious company with a simple, clean design, using jQuery, Sass, Flexbox, Velocity.js, CSS3 animations, and Fallings.js for parallax scrolling."
 	},
+	{
+		"title": "SpotiCycle",
+		"link": "http://ang2-spotify.herokuapp.com",
+		"ghlink": "//github.com/gfed53/ang2-spotify",
+		"image": "./images-min/spoticycle-1.png",
+		"blurb": "A self-motivated project using Angular 2+ and the Spotify API, allowing the user to search for artists and then cycle through related artists of infinite degrees of separation."
+	}
 ]
