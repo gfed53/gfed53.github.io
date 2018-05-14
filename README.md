@@ -57,8 +57,12 @@ Repo:
 https://github.com/gfed53/ang2-spotify
 
 Demo:
-http://ang2-spotify.herokuapp.com 
+http://as-cycle-123.herokuapp.com/
 
+
+## Other Work
+
+Here are some other projects that may be of interest:
 
 ### Audio Swirl:
 
@@ -67,12 +71,6 @@ https://github.com/gfed53/audio-swirl
 
 Demo:
 http://audio-swirl-123.herokuapp.com/
-
-
-## Other Work
-
-Here are some other projects that may be of interest:
-
 
 ### Flying Hadouken:
 
