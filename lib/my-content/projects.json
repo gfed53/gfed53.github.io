@@ -25,5 +25,12 @@
 		"ghlink": "https://github.com/gfed53/meteor-react-cms",
 		"image": "./images-min/post-feed.png",
 		"blurb": "A post feed and rich text-based content management system built with ReactJS, Draft.js, and Meteor. This app implements an accounts system and allows you to create posts using rich-text, such as bold, italics, underline as well as headers, lists, etc."
+	},
+	{
+		"title": "SpotiCycle",
+		"link": "http://as-cycle-123.herokuapp.com/",
+		"ghlink": "//github.com/gfed53/ang2-spotify",
+		"image": "./images-min/spoticycle-1.png",
+		"blurb": "A self-motivated project using Angular 2+ and the Spotify API, allowing the user to search for artists and then cycle through related artists of infinite degrees of separation."
 	}
 ]
