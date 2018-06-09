@@ -1,11 +1,5 @@
 [
 	{
-		"title": "Ockupy Website",
-		"site_link": "http://www.ockupy.com",
-		"image": "./images-min/ockupy-site-1.png",
-		"blurb": "A website powered by ReactJS and Meteor displaying the work and services of Ockupy, a digital marketing agency with which I had the pleasure of working as a web developer intern. As part of a persistent team of two, we gave the website a responsive design overhaul and made several ammendments, including the eye-catching use of the particles.js, Tilt.js, and Rellax libraries."
-	},
-	{
 		"title": "GameHunter",
 		"link": "http://game-hunter-315.herokuapp.com/",
 		"ghlink": "https://github.com/gfed53/ang-mongo-igdb",
