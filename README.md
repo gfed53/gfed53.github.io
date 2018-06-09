@@ -18,7 +18,7 @@ The following is an explanation of my directory structure:
 
 * 'node_modules': mainly the backend dependencies
 
-* 'css': the css the index references, although I'm using SASS which is found in the 'scss' directory
+* 'css': the css the index references, although I'm using Sass which is found in the 'scss' directory
 
 * 'favicons', 'images', 'images-min': resources used in the site, 'images-min' being the minified versions of the images. 
 
@@ -26,11 +26,13 @@ The following is an explanation of my directory structure:
 
 Here are quick references to the projects display in the portfolio:
 
+### GameHunter
 
-### Ockupy Website
+Repo: 
+https://github.com/gfed53/ang-mongo-igdb
 
-Site:
-http://www.ockupy.com
+Demo:
+http://game-hunter-315.herokuapp.com/
 
 
 ### The Swiss Army YouTube Searcher
@@ -42,13 +44,13 @@ Demo:
 http://youtube-searcher-8972.herokuapp.com/
 
 
-### AptiPlex Landing Page
+### Rich Text Post Feed
 
 Repo:
-https://github.com/gfed53/fun-landingpage-1
+https://github.com/gfed53/meteor-react-cms
 
-Site:
-https://gfed53.github.io/fun-landingpage-1
+Demo:
+http://gregs-cms-123.herokuapp.com/
 
 
 ### SpotiCycle
@@ -64,6 +66,15 @@ http://as-cycle-123.herokuapp.com/
 
 Here are some other projects that may be of interest:
 
+### AptiPlex Landing Page
+
+Repo:
+https://github.com/gfed53/fun-landingpage-1
+
+Site:
+https://gfed53.github.io/fun-landingpage-1
+
+
 ### Audio Swirl:
 
 Repo:
@@ -71,6 +82,7 @@ https://github.com/gfed53/audio-swirl
 
 Demo:
 http://audio-swirl-123.herokuapp.com/
+
 
 ### Flying Hadouken:
 
