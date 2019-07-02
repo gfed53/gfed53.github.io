@@ -1,129 +1,140 @@
 #projects {
-	.proj-sub-heading {
-		margin: 2em;
-		color: #1B1A1A;
-	    font-size: 1.2em;
-	    text-align: center;
-	}
-	.project-main, .project-details {
-		display: block;
-	}
+    .proj-heading-outer {
+        padding: 2em;
+    }
 
-	.project {
-		h2 {
-			margin-bottom: 1em;
-			font-size: 1.6em;
-			text-align: center;
-		}
-		padding-top: 4em;
-		padding-bottom: 4em;
-		border-bottom: 1px solid #6C7A89;
-		.project-flex-container {
-			display: flex;
-			flex-flow: column wrap;
-		}
+    .proj-sub-heading {
+        margin: 2em;
+        color: #1b1a1a;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .project-main,
+    .project-details {
+        display: block;
+    }
 
-		.project-flex-container div {
-			padding: 0 1em;
-			flex: 2;
-		}
+    .project {
+        h2 {
+            margin-bottom: 1em;
+            font-size: 1.6em;
+            text-align: center;
+        }
+        padding-top: 4em;
+        padding-bottom: 4em;
+        border-bottom: 1px solid #6c7a89;
+        .project-flex-container {
+            display: flex;
+            flex-flow: column wrap;
+        }
 
-		.project-main, .project-details {
-				width: 100%;
-			}
-		.project-main {
-			.proj-pic {
-				margin: 2em auto;
-				width: 100%;
-				box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
-			}		
-		}
+        .project-flex-container div {
+            padding: 0 1em;
+            flex: 2;
+        }
 
-		.project-details, .project-links {
-			margin-top: 0;
-			text-align: center;
-		}
+        .project-main,
+        .project-details {
+            width: 100%;
+        }
+        .project-main {
+            .proj-pic {
+                margin: 2em auto;
+                width: 100%;
+                box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+            }
+        }
 
-		.project-details {
-			p {
-				margin: 0 auto;
-				max-width: 30em;
-				text-align: left;
-			}
-		}
+        .project-details,
+        .project-links {
+            margin-top: 0;
+            text-align: center;
+        }
 
-		.project-links {
-			ul {
-				padding: 0;
-			}
-			li {
-				display: inline-block;
-			}
-		}
-	}
+        .project-details {
+            p {
+                margin: 0 auto;
+                margin-bottom: 1em;
+                max-width: 30em;
+                text-align: left;
+            }
+            em {
+                font-size: 0.9em;
+            }
+        }
 
-	.inner-project-content {
-		max-width: 1090px;
-		margin: 0 auto;
-	}
+        .project-links {
+            ul {
+                padding: 0;
+            }
+            li {
+                display: inline-block;
+            }
+        }
+    }
+
+    .inner-project-content {
+        max-width: 1090px;
+        margin: 0 auto;
+    }
 }
-
 
 /* MEDIA QUERIES
 -------------------------------*/
 
-@media screen and ($fablet){
-	#projects {
-		.project {
-			.project-details {
-				margin-bottom: 4em;
-				p {
-					font-size: 1.1em;
-				}
-			}
-		}
-	}
+@media screen and ($fablet) {
+    #projects {
+        .project {
+            .project-details {
+                margin-bottom: 4em;
+                p {
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
 }
 
-@media screen and ($tablet){
-	#projects {
-		.project-main, .project-details {
-			display: inline-block;
-		}
-		.project {
-			padding-top: 6em;
-			padding-bottom: 6em;
-			margin: 0 3em;
+@media screen and ($tablet) {
+    #projects {
+        .project-main,
+        .project-details {
+            display: inline-block;
+        }
+        .project {
+            padding-top: 6em;
+            padding-bottom: 6em;
+            margin: 0 3em;
 
-			.project-flex-container {
-				flex-flow: row wrap;
-			}
-			.project-flex-container div {
-				flex: 1;
-			}
-			.project-main {
-				width: 55%;
-			}
-			.project-details {
-				float: right;
-				width: 40%;
-				margin-top: 2em;
-			}	
-		}
-		.inner-project-content {
-			padding: 0 2em;
-		}
-	}
+            .project-flex-container {
+                flex-flow: row wrap;
+            }
+            .project-flex-container div {
+                flex: 1;
+            }
+            .project-main {
+                width: 55%;
+            }
+            .project-details {
+                float: right;
+                width: 40%;
+                margin-top: 2em;
+            }
+        }
+        .inner-project-content {
+            padding: 0 2em;
+        }
+    }
 }
 
-@media screen and ($fablet) and ($tablet-max), ($desktop){
-	#projects {
-		.project {
-			.project-main {
-				.proj-pic {
-					box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
-				}
-			}
-		}
-	}
+@media screen and ($fablet) and ($tablet-max), ($desktop) {
+    #projects {
+        .project {
+            .project-main {
+                .proj-pic {
+                    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
 }

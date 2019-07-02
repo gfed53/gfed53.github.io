@@ -22,7 +22,9 @@ body {
     body .sub-heading-alt h2 {
       font-size: 1.3em; } }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
   margin: 0;
   position: relative; }
@@ -34,14 +36,15 @@ html {
     background-color: #fbfbfb;
     height: 100%; }
     html body .grid {
+      max-width: 1090px;
       margin: 0 auto; }
-    html body #mast-head, html body #about, html body .proj-heading-outer {
+    html body #mast-head,
+    html body #about,
+    html body .proj-heading-outer {
       max-width: 80em;
       margin: 0 auto; }
     html body .hidden {
       display: none; }
-    html body .container {
-      padding: 0 2em; }
 
 .button {
   display: inline-block;
@@ -156,58 +159,63 @@ header {
   .my-portrait {
     display: inline-block; } }
 
-#about {
-  padding: 2em 2em 0 2em; }
-  #about .about-heading, #about .about-content {
+#about .about-heading,
+#about .about-content {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top; }
+
+#about .about-heading h1 {
+  font-size: 1.4em;
+  color: #EC644B; }
+
+#about .about-content {
+  display: block;
+  margin: 0 auto; }
+  #about .about-content p {
+    font-size: 1em; }
+  #about .about-content .about-button-wrapper {
     width: 100%;
-    display: inline-block;
-    vertical-align: top; }
-  #about .about-heading h1 {
-    font-size: 1.4em;
-    color: #EC644B; }
-  #about .about-content {
-    display: block;
-    margin: 0 auto; }
-    #about .about-content p {
-      font-size: 1em; }
-    #about .about-content .about-button-wrapper {
-      width: 100%;
-      text-align: center; }
-  #about .about-more-content {
-    width: 100%;
-    margin-top: 3em; }
-    #about .about-more-content p {
-      margin: 1em auto;
-      max-width: 60em;
-      text-indent: 1em; }
-  #about #quote-render {
-    padding: 4em 0;
-    border-bottom: 1px solid #6C7A89; }
-  #about #quote {
-    font-style: italic; }
+    text-align: center; }
+
+#about .about-more-content {
+  width: 100%;
+  margin-top: 3em; }
+  #about .about-more-content p {
+    margin: 1em auto;
+    max-width: 60em;
+    text-indent: 1em; }
+
+#about #quote-render {
+  padding: 4em 0;
+  border-bottom: 1px solid #6c7a89; }
+
+#about #quote {
+  font-style: italic; }
 
 @media screen and (min-width: 768px) {
-  #about {
-    padding-left: 5em;
-    padding-right: 5em; }
-    #about .about-heading h1 {
-      font-size: 1.6em; }
-    #about #quote-render {
-      padding: 10em 0; } }
+  #about .about-heading h1 {
+    font-size: 1.6em; }
+  #about #quote-render {
+    padding: 10em 0; } }
+
+#projects .proj-heading-outer {
+  padding: 2em; }
 
 #projects .proj-sub-heading {
   margin: 2em;
-  color: #1B1A1A;
+  color: #1b1a1a;
   font-size: 1.2em;
   text-align: center; }
 
-#projects .project-main, #projects .project-details {
+#projects .project-main,
+#projects .project-details {
   display: block; }
 
 #projects .project {
   padding-top: 4em;
   padding-bottom: 4em;
-  border-bottom: 1px solid #6C7A89; }
+  border-bottom: 1px solid #6c7a89; }
   #projects .project h2 {
     margin-bottom: 1em;
     font-size: 1.6em;
@@ -218,19 +226,24 @@ header {
   #projects .project .project-flex-container div {
     padding: 0 1em;
     flex: 2; }
-  #projects .project .project-main, #projects .project .project-details {
+  #projects .project .project-main,
+  #projects .project .project-details {
     width: 100%; }
   #projects .project .project-main .proj-pic {
     margin: 2em auto;
     width: 100%;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5); }
-  #projects .project .project-details, #projects .project .project-links {
+  #projects .project .project-details,
+  #projects .project .project-links {
     margin-top: 0;
     text-align: center; }
   #projects .project .project-details p {
     margin: 0 auto;
+    margin-bottom: 1em;
     max-width: 30em;
     text-align: left; }
+  #projects .project .project-details em {
+    font-size: 0.9em; }
   #projects .project .project-links ul {
     padding: 0; }
   #projects .project .project-links li {
@@ -249,7 +262,8 @@ header {
       font-size: 1.1em; } }
 
 @media screen and (min-width: 768px) {
-  #projects .project-main, #projects .project-details {
+  #projects .project-main,
+  #projects .project-details {
     display: inline-block; }
   #projects .project {
     padding-top: 6em;
